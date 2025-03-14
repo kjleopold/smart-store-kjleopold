@@ -77,3 +77,7 @@ Find raw data .csv files in course repo and download to data\raw folder
 2. Find `logger.py` file in course repo and copy/paste contents into local `logger.py`
 3. Create `data_prep.py` file under scripts folder
 4. Find `data_prep.py` file under `smart-sales-starter-files` repo and copy/paste nto local `data_prep.py`
+5. Execute Python script:
+```
+py scripts\data_prep.py
+```
