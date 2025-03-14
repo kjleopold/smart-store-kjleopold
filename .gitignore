@@ -5,7 +5,7 @@
 
 # Visual Studio Code settings and workspace folder - Ignore entire .vscode folder except settings.json
 .vscode/*
-.vscode/settings.json # Include project-specific settings
+.vscode/settings.json  # Include project-specific settings
 .vscode/launch.json    # Include project-specific launch configurations if needed
 .vscode/tasks.json     # Include project-specific tasks if needed
 
