@@ -4,3 +4,28 @@
 2025-03-13 18:49:49.477 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-kjleopold\data\raw\products_data.csv.
 2025-03-13 18:49:49.481 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv.
 2025-03-13 18:49:49.486 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-25 17:21:18.718 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-25 17:21:18.718 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-25 17:21:18.719 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-kjleopold\data\raw\customers_data.csv.
+2025-03-25 17:21:18.724 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-kjleopold\data\raw\products_data.csv.
+2025-03-25 17:21:18.729 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv.
+2025-03-25 17:21:18.735 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-25 17:23:33.641 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-25 17:23:33.642 | INFO     | __main__:main:59 - ======================
+2025-03-25 17:23:33.643 | INFO     | __main__:main:60 - STARTING data_prep.py
+2025-03-25 17:23:33.643 | INFO     | __main__:main:61 - ======================
+2025-03-25 17:23:33.643 | INFO     | __main__:main:63 - ========================
+2025-03-25 17:23:33.643 | INFO     | __main__:main:64 - Starting CUSTOMERS prep
+2025-03-25 17:23:33.643 | INFO     | __main__:main:65 - ========================
+2025-03-25 17:23:33.654 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\customers_data_prepared.csv
+2025-03-25 17:23:33.654 | INFO     | __main__:main:85 - ========================
+2025-03-25 17:23:33.654 | INFO     | __main__:main:86 - Starting PRODUCTS prep
+2025-03-25 17:23:33.654 | INFO     | __main__:main:87 - ========================
+2025-03-25 17:23:33.660 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\products_data_prepared.csv
+2025-03-25 17:23:33.660 | INFO     | __main__:main:103 - ========================
+2025-03-25 17:23:33.660 | INFO     | __main__:main:104 - Starting SALES prep
+2025-03-25 17:23:33.660 | INFO     | __main__:main:105 - ========================
+2025-03-25 17:23:33.674 | INFO     | __main__:save_prepared_data:55 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-25 17:23:33.675 | INFO     | __main__:main:124 - ======================
+2025-03-25 17:23:33.675 | INFO     | __main__:main:125 - FINISHED data_prep.py
+2025-03-25 17:23:33.675 | INFO     | __main__:main:126 - ======================
