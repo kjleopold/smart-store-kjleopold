@@ -230,3 +230,634 @@ dtype: int64
 2025-03-26 21:36:40.061 | INFO     | __main__:main:293 - ==================================
 2025-03-26 21:36:40.061 | INFO     | __main__:main:294 - FINISHED prepare_products_data.py
 2025-03-26 21:36:40.061 | INFO     | __main__:main:295 - ==================================
+2025-03-26 21:56:32.794 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:56:32.794 | INFO     | __main__:main:252 - ==================================
+2025-03-26 21:56:32.794 | INFO     | __main__:main:253 - STARTING prepare_sales_data.py
+2025-03-26 21:56:32.794 | INFO     | __main__:main:254 - ==================================
+2025-03-26 21:56:32.795 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 21:56:32.795 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 21:56:32.797 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 21:56:32.797 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 21:56:32.798 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 21:56:32.799 | INFO     | __main__:main:266 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 21:56:32.799 | INFO     | __main__:main:267 - Initial dataframe shape: (94, 9)
+2025-03-26 21:56:32.800 | INFO     | __main__:main:276 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, BonusPoints -> bonuspoints, State -> state
+2025-03-26 21:56:32.800 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 21:59:12.868 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:59:12.869 | INFO     | __main__:main:257 - ==================================
+2025-03-26 21:59:12.869 | INFO     | __main__:main:258 - STARTING prepare_sales_data.py
+2025-03-26 21:59:12.869 | INFO     | __main__:main:259 - ==================================
+2025-03-26 21:59:12.869 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 21:59:12.869 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 21:59:12.871 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 21:59:12.872 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 21:59:12.873 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 21:59:12.873 | INFO     | __main__:main:271 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 21:59:12.874 | INFO     | __main__:main:272 - Initial dataframe shape: (94, 9)
+2025-03-26 21:59:12.874 | INFO     | __main__:main:281 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, BonusPoints -> bonuspoints, State -> state
+2025-03-26 21:59:12.874 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 21:59:12.874 | ERROR    | __main__:remove_duplicates:107 - Error: 'TransactionID' column not found in the data!
+2025-03-26 21:59:12.874 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 21:59:12.875 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+transactionid    0
+saledate         0
+customerid       0
+productid        0
+storeid          0
+campaignid       0
+saleamount       0
+bonuspoints      6
+state            6
+dtype: int64
+2025-03-26 21:59:59.606 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:59:59.606 | INFO     | __main__:main:257 - ==================================
+2025-03-26 21:59:59.606 | INFO     | __main__:main:258 - STARTING prepare_sales_data.py
+2025-03-26 21:59:59.606 | INFO     | __main__:main:259 - ==================================
+2025-03-26 21:59:59.606 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 21:59:59.606 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 21:59:59.609 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 21:59:59.609 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 21:59:59.610 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 21:59:59.610 | INFO     | __main__:main:271 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 21:59:59.611 | INFO     | __main__:main:272 - Initial dataframe shape: (94, 9)
+2025-03-26 21:59:59.611 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 21:59:59.612 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 21:59:59.612 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 21:59:59.612 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 21:59:59.612 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 21:59:59.614 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 21:59:59.614 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 21:59:59.614 | INFO     | __main__:standardize_formats:212 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 21:59:59.614 | INFO     | __main__:standardize_formats:222 - Completed standardizing formats
+2025-03-26 21:59:59.614 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 21:59:59.615 | INFO     | __main__:remove_outliers:195 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 21:59:59.615 | INFO     | __main__:remove_outliers:198 - Removed 0 outlier rows
+2025-03-26 21:59:59.615 | INFO     | __main__:remove_outliers:199 - 94 records remaining after removing outliers.
+2025-03-26 21:59:59.615 | INFO     | __main__:validate_data:235 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-26 22:02:02.242 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:02:02.242 | INFO     | __main__:main:257 - ==================================
+2025-03-26 22:02:02.242 | INFO     | __main__:main:258 - STARTING prepare_sales_data.py
+2025-03-26 22:02:02.243 | INFO     | __main__:main:259 - ==================================
+2025-03-26 22:02:02.243 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:02:02.243 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:02:02.245 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:02:02.246 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:02:02.246 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:02:02.247 | INFO     | __main__:main:271 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:02:02.247 | INFO     | __main__:main:272 - Initial dataframe shape: (94, 9)
+2025-03-26 22:02:02.248 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:02:02.248 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:02:02.248 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:02:02.248 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:02:02.249 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:02:02.250 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:02:02.251 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:02:02.251 | INFO     | __main__:standardize_formats:212 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:02:02.251 | INFO     | __main__:standardize_formats:222 - Completed standardizing formats
+2025-03-26 22:02:02.251 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:02:02.251 | INFO     | __main__:remove_outliers:195 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 22:02:02.252 | INFO     | __main__:remove_outliers:198 - Removed 0 outlier rows
+2025-03-26 22:02:02.252 | INFO     | __main__:remove_outliers:199 - 94 records remaining after removing outliers.
+2025-03-26 22:02:02.252 | INFO     | __main__:validate_data:235 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-26 22:05:05.699 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:05:05.699 | INFO     | __main__:main:261 - ==================================
+2025-03-26 22:05:05.699 | INFO     | __main__:main:262 - STARTING prepare_sales_data.py
+2025-03-26 22:05:05.700 | INFO     | __main__:main:263 - ==================================
+2025-03-26 22:05:05.700 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:05:05.700 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:05:05.702 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:05:05.703 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:05:05.703 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:05:05.704 | INFO     | __main__:main:275 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:05:05.704 | INFO     | __main__:main:276 - Initial dataframe shape: (94, 9)
+2025-03-26 22:05:05.704 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:05:05.705 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:05:05.705 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:05:05.705 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:05:05.706 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:05:05.707 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:05:05.708 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:05:05.708 | INFO     | __main__:standardize_formats:212 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:05:05.708 | INFO     | __main__:standardize_formats:222 - Completed standardizing formats
+2025-03-26 22:05:05.708 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:05:05.708 | INFO     | __main__:remove_outliers:195 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 22:05:05.708 | INFO     | __main__:remove_outliers:198 - Removed 0 outlier rows
+2025-03-26 22:05:05.709 | INFO     | __main__:remove_outliers:199 - 94 records remaining after removing outliers.
+2025-03-26 22:05:05.709 | INFO     | __main__:validate_data:235 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-26 22:05:05.709 | INFO     | __main__:validate_data:249 - Found 7 sales with negative bonus points
+2025-03-26 22:05:05.709 | INFO     | __main__:validate_data:254 - Data validation complete
+2025-03-26 22:05:05.710 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(94, 9)
+2025-03-26 22:05:05.711 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-26 22:05:05.711 | INFO     | __main__:main:297 - ==================================
+2025-03-26 22:05:05.711 | INFO     | __main__:main:298 - FINISHED prepare_sales_data.py
+2025-03-26 22:05:05.712 | INFO     | __main__:main:299 - ==================================
+2025-03-26 22:07:20.620 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:07:20.620 | INFO     | __main__:main:262 - ==================================
+2025-03-26 22:07:20.620 | INFO     | __main__:main:263 - STARTING prepare_sales_data.py
+2025-03-26 22:07:20.621 | INFO     | __main__:main:264 - ==================================
+2025-03-26 22:07:20.621 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:07:20.621 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:07:20.623 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:07:20.623 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:07:20.624 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:07:20.625 | INFO     | __main__:main:276 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:07:20.625 | INFO     | __main__:main:277 - Initial dataframe shape: (94, 9)
+2025-03-26 22:07:20.625 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:07:20.626 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:07:20.626 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:07:20.626 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:07:20.627 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:07:20.628 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:07:20.628 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:07:20.628 | INFO     | __main__:standardize_formats:212 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:07:20.629 | INFO     | __main__:standardize_formats:222 - Completed standardizing formats
+2025-03-26 22:07:20.629 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:07:20.629 | INFO     | __main__:remove_outliers:195 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 22:07:20.630 | INFO     | __main__:remove_outliers:198 - Removed 0 outlier rows
+2025-03-26 22:07:20.630 | INFO     | __main__:remove_outliers:199 - 94 records remaining after removing outliers.
+2025-03-26 22:07:20.630 | INFO     | __main__:validate_data:235 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-26 22:07:20.631 | INFO     | __main__:validate_data:249 - Found 7 sales with negative bonus points
+2025-03-26 22:07:20.631 | INFO     | __main__:validate_data:255 - Data validation complete
+2025-03-26 22:07:20.631 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(94, 9)
+2025-03-26 22:07:20.633 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-26 22:07:20.633 | INFO     | __main__:main:298 - ==================================
+2025-03-26 22:07:20.633 | INFO     | __main__:main:299 - FINISHED prepare_sales_data.py
+2025-03-26 22:07:20.633 | INFO     | __main__:main:300 - ==================================
+2025-03-26 22:11:02.275 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:11:02.276 | INFO     | __main__:main:271 - ==================================
+2025-03-26 22:11:02.276 | INFO     | __main__:main:272 - STARTING prepare_sales_data.py
+2025-03-26 22:11:02.276 | INFO     | __main__:main:273 - ==================================
+2025-03-26 22:11:02.276 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:11:02.276 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:11:02.278 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:11:02.279 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:11:02.280 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:11:02.280 | INFO     | __main__:main:285 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:11:02.280 | INFO     | __main__:main:286 - Initial dataframe shape: (94, 9)
+2025-03-26 22:11:02.281 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:11:02.281 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:11:02.281 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:11:02.281 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:11:02.282 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:11:02.283 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:11:02.283 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:11:02.284 | INFO     | __main__:standardize_formats:221 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:11:02.284 | INFO     | __main__:standardize_formats:231 - Completed standardizing formats
+2025-03-26 22:11:02.284 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:11:02.286 | INFO     | __main__:remove_outliers:204 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 22:11:02.286 | INFO     | __main__:remove_outliers:204 - Filtered out 0 rows from 'BonusPoints' outside range [0, 20]
+2025-03-26 22:11:02.286 | INFO     | __main__:remove_outliers:207 - Removed 0 outlier rows
+2025-03-26 22:11:02.286 | INFO     | __main__:remove_outliers:208 - 94 records remaining after removing outliers.
+2025-03-26 22:11:02.286 | INFO     | __main__:validate_data:244 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-26 22:11:02.287 | INFO     | __main__:validate_data:258 - Found 0 sales with negative bonus points
+2025-03-26 22:11:02.287 | INFO     | __main__:validate_data:264 - Data validation complete
+2025-03-26 22:11:02.288 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(94, 9)
+2025-03-26 22:11:02.290 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-26 22:11:02.290 | INFO     | __main__:main:307 - ==================================
+2025-03-26 22:11:02.290 | INFO     | __main__:main:308 - FINISHED prepare_sales_data.py
+2025-03-26 22:11:02.290 | INFO     | __main__:main:309 - ==================================
+2025-03-26 22:13:00.032 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:13:00.033 | INFO     | __main__:main:268 - ==================================
+2025-03-26 22:13:00.033 | INFO     | __main__:main:269 - STARTING prepare_sales_data.py
+2025-03-26 22:13:00.033 | INFO     | __main__:main:270 - ==================================
+2025-03-26 22:13:00.033 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:13:00.033 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:13:00.035 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:13:00.036 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:13:00.037 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:13:00.037 | INFO     | __main__:main:282 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:13:00.037 | INFO     | __main__:main:283 - Initial dataframe shape: (94, 9)
+2025-03-26 22:13:00.038 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:13:00.038 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:13:00.038 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:13:00.038 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:13:00.039 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:13:00.040 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:13:00.041 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:13:00.041 | INFO     | __main__:standardize_formats:218 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:13:00.041 | INFO     | __main__:standardize_formats:228 - Completed standardizing formats
+2025-03-26 22:13:00.041 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:13:00.042 | INFO     | __main__:remove_outliers:201 - Filtered out 0 rows from 'SaleAmount' outside range [0, 10000]
+2025-03-26 22:13:00.043 | INFO     | __main__:remove_outliers:201 - Filtered out 9 rows from 'BonusPoints' outside range [0, 20]
+2025-03-26 22:13:00.043 | INFO     | __main__:remove_outliers:204 - Removed 9 outlier rows
+2025-03-26 22:13:00.043 | INFO     | __main__:remove_outliers:205 - 85 records remaining after removing outliers.
+2025-03-26 22:13:00.043 | INFO     | __main__:validate_data:241 - FUNCTION START: validate_data with dataframe shape=(85, 9)
+2025-03-26 22:13:00.043 | INFO     | __main__:validate_data:255 - Found 0 sales with negative bonus points
+2025-03-26 22:13:00.044 | INFO     | __main__:validate_data:261 - Data validation complete
+2025-03-26 22:13:00.044 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(85, 9)
+2025-03-26 22:13:00.046 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-26 22:13:00.046 | INFO     | __main__:main:304 - ==================================
+2025-03-26 22:13:00.046 | INFO     | __main__:main:305 - FINISHED prepare_sales_data.py
+2025-03-26 22:13:00.046 | INFO     | __main__:main:306 - ==================================
+2025-03-26 22:18:03.705 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:18:03.705 | INFO     | __main__:main:252 - ==================================
+2025-03-26 22:18:03.705 | INFO     | __main__:main:253 - STARTING prepare_sales_data.py
+2025-03-26 22:18:03.705 | INFO     | __main__:main:254 - ==================================
+2025-03-26 22:18:03.706 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:18:03.706 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:18:03.709 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:18:03.709 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:18:03.710 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:18:03.711 | INFO     | __main__:main:266 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:18:03.711 | INFO     | __main__:main:267 - Initial dataframe shape: (94, 9)
+2025-03-26 22:18:03.712 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:18:03.712 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:18:03.712 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:18:03.712 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:18:03.713 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:18:03.714 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:18:03.715 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:18:03.715 | INFO     | __main__:standardize_formats:202 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:18:03.715 | INFO     | __main__:standardize_formats:212 - Completed standardizing formats
+2025-03-26 22:18:03.715 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:21:03.330 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 22:21:03.330 | INFO     | __main__:main:261 - ==================================
+2025-03-26 22:21:03.330 | INFO     | __main__:main:262 - STARTING prepare_sales_data.py
+2025-03-26 22:21:03.330 | INFO     | __main__:main:263 - ==================================
+2025-03-26 22:21:03.330 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-26 22:21:03.331 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\sales_data.csv
+2025-03-26 22:21:03.333 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-26 22:21:03.333 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+TransactionID      int64
+SaleDate          object
+CustomerID         int64
+ProductID          int64
+StoreID            int64
+CampaignID         int64
+SaleAmount       float64
+BonusPoints      float64
+State             object
+dtype: object
+2025-03-26 22:21:03.334 | INFO     | __main__:read_raw_data:72 - Number of unique values: 
+TransactionID    94
+SaleDate         44
+CustomerID       11
+ProductID         8
+StoreID           6
+CampaignID        4
+SaleAmount       59
+BonusPoints      17
+State            39
+dtype: int64
+2025-03-26 22:21:03.335 | INFO     | __main__:main:275 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, BonusPoints, State
+2025-03-26 22:21:03.335 | INFO     | __main__:main:276 - Initial dataframe shape: (94, 9)
+2025-03-26 22:21:03.335 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-26 22:21:03.336 | INFO     | __main__:remove_duplicates:114 - Removed 0 duplicate rows
+2025-03-26 22:21:03.336 | INFO     | __main__:remove_duplicates:115 - 94 records remaining after removing duplicates.
+2025-03-26 22:21:03.336 | INFO     | __main__:handle_missing_values:129 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-26 22:21:03.336 | INFO     | __main__:handle_missing_values:134 - Missing values by column before handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      6
+State            6
+dtype: int64
+2025-03-26 22:21:03.338 | INFO     | __main__:handle_missing_values:151 - Missing values by column after handling:
+TransactionID    0
+SaleDate         0
+CustomerID       0
+ProductID        0
+StoreID          0
+CampaignID       0
+SaleAmount       0
+BonusPoints      0
+State            0
+dtype: int64
+2025-03-26 22:21:03.338 | INFO     | __main__:handle_missing_values:152 - 94 records remaining after handling missing values.
+2025-03-26 22:21:03.338 | INFO     | __main__:standardize_formats:211 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-26 22:21:03.338 | INFO     | __main__:standardize_formats:221 - Completed standardizing formats
+2025-03-26 22:21:03.338 | INFO     | __main__:remove_outliers:166 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-26 22:21:03.340 | INFO     | __main__:remove_outliers:197 - Removed 2 outlier rows
+2025-03-26 22:21:03.340 | INFO     | __main__:remove_outliers:198 - 92 records remaining after removing outliers.
+2025-03-26 22:21:03.340 | INFO     | __main__:validate_data:234 - FUNCTION START: validate_data with dataframe shape=(92, 9)
+2025-03-26 22:21:03.341 | INFO     | __main__:validate_data:248 - Found 7 sales with negative bonus points
+2025-03-26 22:21:03.341 | INFO     | __main__:validate_data:254 - Data validation complete
+2025-03-26 22:21:03.341 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(92, 9)
+2025-03-26 22:21:03.343 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\sales_data_prepared.csv
+2025-03-26 22:21:03.343 | INFO     | __main__:main:297 - ==================================
+2025-03-26 22:21:03.343 | INFO     | __main__:main:298 - FINISHED prepare_sales_data.py
+2025-03-26 22:21:03.343 | INFO     | __main__:main:299 - ==================================
