@@ -29,3 +29,59 @@
 2025-03-25 17:23:33.675 | INFO     | __main__:main:124 - ======================
 2025-03-25 17:23:33.675 | INFO     | __main__:main:125 - FINISHED data_prep.py
 2025-03-25 17:23:33.675 | INFO     | __main__:main:126 - ======================
+2025-03-26 20:42:26.430 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 20:42:26.430 | INFO     | __main__:main:162 - ==================================
+2025-03-26 20:42:26.430 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-26 20:42:26.430 | INFO     | __main__:main:164 - ==================================
+2025-03-26 20:42:26.430 | INFO     | __main__:main:166 - Root project folder: C:\Projects\smart-store-kjleopold
+2025-03-26 20:42:26.431 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\smart-store-kjleopold\data\raw
+2025-03-26 20:42:26.431 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\smart-store-kjleopold\data\prepared
+2025-03-26 20:42:26.431 | INFO     | __main__:main:169 - scripts folder: C:\Projects\smart-store-kjleopold\scripts
+2025-03-26 20:42:26.431 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-26 20:42:26.431 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\customers_data.csv
+2025-03-26 20:42:26.438 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-26 20:42:26.438 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, PreferredContactMenthod
+2025-03-26 20:42:26.439 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-26 20:42:26.439 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-26 20:42:26.440 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-26 20:42:26.440 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-26 20:42:26.440 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-26 20:42:26.441 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-26 20:42:26.441 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-26 20:42:26.441 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-26 20:42:26.441 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-26 20:42:26.441 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-26 20:42:26.441 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-26 20:42:26.441 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-26 20:42:26.443 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\customers_data_prepared.csv
+2025-03-26 20:42:26.443 | INFO     | __main__:main:202 - ==================================
+2025-03-26 20:42:26.443 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
+2025-03-26 20:42:26.444 | INFO     | __main__:main:204 - ==================================
+2025-03-26 20:52:51.554 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 20:52:51.554 | INFO     | __main__:main:166 - ==================================
+2025-03-26 20:52:51.554 | INFO     | __main__:main:167 - STARTING prepare_customers_data.py
+2025-03-26 20:52:51.554 | INFO     | __main__:main:168 - ==================================
+2025-03-26 20:52:51.554 | INFO     | __main__:main:170 - Root project folder: C:\Projects\smart-store-kjleopold
+2025-03-26 20:52:51.555 | INFO     | __main__:main:171 - data / raw folder: C:\Projects\smart-store-kjleopold\data\raw
+2025-03-26 20:52:51.555 | INFO     | __main__:main:172 - data / prepared folder: C:\Projects\smart-store-kjleopold\data\prepared
+2025-03-26 20:52:51.555 | INFO     | __main__:main:173 - scripts folder: C:\Projects\smart-store-kjleopold\scripts
+2025-03-26 20:52:51.555 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-26 20:52:51.555 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\customers_data.csv
+2025-03-26 20:52:51.557 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-26 20:52:51.557 | INFO     | __main__:main:182 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, LoyaltyPoints, PreferredContactMethod
+2025-03-26 20:52:51.558 | INFO     | __main__:main:183 - Initial dataframe shape: (11, 6)
+2025-03-26 20:52:51.558 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-26 20:52:51.559 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-26 20:52:51.559 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-26 20:52:51.559 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-26 20:52:51.559 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 2
+2025-03-26 20:52:51.560 | INFO     | __main__:handle_missing_values:132 - Total missing values after handling: 0
+2025-03-26 20:52:51.560 | INFO     | __main__:handle_missing_values:133 - 11 records remaining after handling missing values.
+2025-03-26 20:52:51.560 | INFO     | __main__:remove_outliers:147 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-26 20:52:51.561 | INFO     | __main__:remove_outliers:157 - Removed 3 outlier rows
+2025-03-26 20:52:51.561 | INFO     | __main__:remove_outliers:158 - 8 records remaining after removing outliers.
+2025-03-26 20:52:51.561 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-26 20:52:51.563 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\customers_data_prepared.csv
+2025-03-26 20:52:51.563 | INFO     | __main__:main:206 - ==================================
+2025-03-26 20:52:51.563 | INFO     | __main__:main:207 - FINISHED prepare_customers_data.py
+2025-03-26 20:52:51.563 | INFO     | __main__:main:208 - ==================================
