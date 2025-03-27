@@ -85,3 +85,148 @@
 2025-03-26 20:52:51.563 | INFO     | __main__:main:206 - ==================================
 2025-03-26 20:52:51.563 | INFO     | __main__:main:207 - FINISHED prepare_customers_data.py
 2025-03-26 20:52:51.563 | INFO     | __main__:main:208 - ==================================
+2025-03-26 21:23:29.754 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:23:29.755 | INFO     | __main__:main:244 - ==================================
+2025-03-26 21:23:29.755 | INFO     | __main__:main:245 - STARTING prepare_products_data.py
+2025-03-26 21:23:29.755 | INFO     | __main__:main:246 - ==================================
+2025-03-26 21:23:29.755 | INFO     | __main__:main:248 - Root project folder: C:\Projects\smart-store-kjleopold
+2025-03-26 21:23:29.755 | INFO     | __main__:main:249 - data / raw folder: C:\Projects\smart-store-kjleopold\data\raw
+2025-03-26 21:23:29.755 | INFO     | __main__:main:250 - data / prepared folder: C:\Projects\smart-store-kjleopold\data\prepared
+2025-03-26 21:23:29.755 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-26 21:23:29.755 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\products_data.csv
+2025-03-26 21:23:29.757 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-26 21:23:29.758 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+Quantity         int64
+Supplier        object
+dtype: object
+2025-03-26 21:23:29.759 | INFO     | __main__:read_raw_data:72 - Number of unique values per column: 
+ProductID      8
+ProductName    8
+Category       3
+UnitPrice      8
+Quantity       8
+Supplier       3
+dtype: int64
+2025-03-26 21:23:29.759 | INFO     | __main__:main:259 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Quantity, Supplier
+2025-03-26 21:23:29.759 | INFO     | __main__:main:260 - Initial dataframe shape: (8, 6)
+2025-03-26 21:23:29.760 | INFO     | __main__:main:269 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Quantity -> quantity, Supplier -> supplier
+2025-03-26 21:23:29.760 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-26 21:23:29.760 | INFO     | __main__:remove_duplicates:112 - Removed 0 duplicate rows
+2025-03-26 21:23:29.760 | INFO     | __main__:remove_duplicates:113 - 8 records remaining after removing duplicates.
+2025-03-26 21:23:29.761 | INFO     | __main__:handle_missing_values:127 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-26 21:23:29.761 | INFO     | __main__:handle_missing_values:131 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+quantity       0
+supplier       2
+dtype: int64
+2025-03-26 21:30:27.537 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:30:27.538 | INFO     | __main__:main:256 - ==================================
+2025-03-26 21:30:27.538 | INFO     | __main__:main:257 - STARTING prepare_products_data.py
+2025-03-26 21:30:27.538 | INFO     | __main__:main:258 - ==================================
+2025-03-26 21:30:27.538 | INFO     | __main__:main:260 - Root project folder: C:\Projects\smart-store-kjleopold
+2025-03-26 21:30:27.538 | INFO     | __main__:main:261 - data / raw folder: C:\Projects\smart-store-kjleopold\data\raw
+2025-03-26 21:30:27.538 | INFO     | __main__:main:262 - data / prepared folder: C:\Projects\smart-store-kjleopold\data\prepared
+2025-03-26 21:30:27.538 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-26 21:30:27.539 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\products_data.csv
+2025-03-26 21:30:27.541 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-26 21:30:27.541 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+Quantity         int64
+Supplier        object
+dtype: object
+2025-03-26 21:30:27.542 | INFO     | __main__:read_raw_data:72 - Number of unique values per column: 
+ProductID      8
+ProductName    8
+Category       3
+UnitPrice      8
+Quantity       8
+Supplier       3
+dtype: int64
+2025-03-26 21:30:27.542 | INFO     | __main__:main:271 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Quantity, Supplier
+2025-03-26 21:30:27.542 | INFO     | __main__:main:272 - Initial dataframe shape: (8, 6)
+2025-03-26 21:30:27.543 | INFO     | __main__:main:281 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Quantity -> quantity, Supplier -> supplier
+2025-03-26 21:30:27.543 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-26 21:30:27.544 | INFO     | __main__:remove_duplicates:112 - Removed 0 duplicate rows
+2025-03-26 21:30:27.544 | INFO     | __main__:remove_duplicates:113 - 8 records remaining after removing duplicates.
+2025-03-26 21:30:27.544 | INFO     | __main__:handle_missing_values:127 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-26 21:30:27.544 | INFO     | __main__:handle_missing_values:131 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+quantity       0
+supplier       2
+dtype: int64
+2025-03-26 21:36:40.048 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-26 21:36:40.049 | INFO     | __main__:main:256 - ==================================
+2025-03-26 21:36:40.049 | INFO     | __main__:main:257 - STARTING prepare_products_data.py
+2025-03-26 21:36:40.049 | INFO     | __main__:main:258 - ==================================
+2025-03-26 21:36:40.049 | INFO     | __main__:main:260 - Root project folder: C:\Projects\smart-store-kjleopold
+2025-03-26 21:36:40.049 | INFO     | __main__:main:261 - data / raw folder: C:\Projects\smart-store-kjleopold\data\raw
+2025-03-26 21:36:40.049 | INFO     | __main__:main:262 - data / prepared folder: C:\Projects\smart-store-kjleopold\data\prepared
+2025-03-26 21:36:40.049 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-26 21:36:40.049 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\smart-store-kjleopold\data\raw\products_data.csv
+2025-03-26 21:36:40.052 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-26 21:36:40.052 | INFO     | __main__:read_raw_data:71 - Column datatypes: 
+ProductID        int64
+ProductName     object
+Category        object
+UnitPrice      float64
+Quantity         int64
+Supplier        object
+dtype: object
+2025-03-26 21:36:40.053 | INFO     | __main__:read_raw_data:72 - Number of unique values per column: 
+ProductID      8
+ProductName    8
+Category       3
+UnitPrice      8
+Quantity       8
+Supplier       3
+dtype: int64
+2025-03-26 21:36:40.053 | INFO     | __main__:main:271 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Quantity, Supplier
+2025-03-26 21:36:40.053 | INFO     | __main__:main:272 - Initial dataframe shape: (8, 6)
+2025-03-26 21:36:40.054 | INFO     | __main__:remove_duplicates:99 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-26 21:36:40.054 | INFO     | __main__:remove_duplicates:112 - Removed 0 duplicate rows
+2025-03-26 21:36:40.054 | INFO     | __main__:remove_duplicates:113 - 8 records remaining after removing duplicates.
+2025-03-26 21:36:40.054 | INFO     | __main__:handle_missing_values:127 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-26 21:36:40.055 | INFO     | __main__:handle_missing_values:131 - Missing values by column before handling:
+ProductID      0
+ProductName    0
+Category       0
+UnitPrice      0
+Quantity       0
+Supplier       2
+dtype: int64
+2025-03-26 21:36:40.056 | INFO     | __main__:handle_missing_values:145 - Missing values by column after handling:
+ProductID      0
+ProductName    0
+Category       0
+UnitPrice      0
+Quantity       0
+Supplier       0
+dtype: int64
+2025-03-26 21:36:40.056 | INFO     | __main__:handle_missing_values:146 - 8 records remaining after handling missing values.
+2025-03-26 21:36:40.056 | INFO     | __main__:standardize_formats:207 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-26 21:36:40.057 | INFO     | __main__:standardize_formats:224 - Completed standardizing formats
+2025-03-26 21:36:40.057 | INFO     | __main__:remove_outliers:160 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-26 21:36:40.058 | INFO     | __main__:remove_outliers:189 - Filtered out 0 rows from 'UnitPrice' outside range [0, 10000]
+2025-03-26 21:36:40.058 | INFO     | __main__:remove_outliers:189 - Filtered out 1 rows from 'Quantity' outside range [0, 1000000]
+2025-03-26 21:36:40.058 | INFO     | __main__:remove_outliers:192 - Removed 1 outlier rows
+2025-03-26 21:36:40.059 | INFO     | __main__:remove_outliers:193 - 7 records remaining after removing outliers.
+2025-03-26 21:36:40.059 | INFO     | __main__:validate_data:237 - FUNCTION START: validate_data with dataframe shape=(7, 6)
+2025-03-26 21:36:40.059 | INFO     | __main__:validate_data:249 - Data validation complete
+2025-03-26 21:36:40.059 | INFO     | __main__:save_prepared_data:84 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(7, 6)
+2025-03-26 21:36:40.061 | INFO     | __main__:save_prepared_data:87 - Data saved to C:\Projects\smart-store-kjleopold\data\prepared\products_data_prepared.csv
+2025-03-26 21:36:40.061 | INFO     | __main__:main:293 - ==================================
+2025-03-26 21:36:40.061 | INFO     | __main__:main:294 - FINISHED prepare_products_data.py
+2025-03-26 21:36:40.061 | INFO     | __main__:main:295 - ==================================

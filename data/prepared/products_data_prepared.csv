@@ -1,0 +1,8 @@
+ProductID,ProductName,Category,UnitPrice,Quantity,Supplier
+102,Hoodie,clothing,39.1,87,BigTimeOutfitters
+103,Cable,electronics,22.76,38,IGS
+104,Hat,clothing,43.1,76,BigTimeOutfitters
+105,Football,sports,19.78,50,ScoreMore
+106,Controller,electronics,88.98,65,DreamGamer
+107,Jacket,clothing,67.02,9,BigTimeOutfitters
+108,Protector,electronics,12.56,24,IGS

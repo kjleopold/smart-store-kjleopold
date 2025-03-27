@@ -67,7 +67,10 @@ def read_raw_data(file_name: str) -> pd.DataFrame:
     # Example:
     # logger.info(f"Column datatypes: \n{df.dtypes}")
     # logger.info(f"Number of unique values: \n{df.nunique()}")
-    
+
+    logger.info(f"Column datatypes: \n{df.dtypes}")
+    logger.info(f"Number of unique values per column: \n{df.nunique()}")
+
     return df
 
 def save_prepared_data(df: pd.DataFrame, file_name: str) -> None:
@@ -100,7 +103,10 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     # Example: For products, SKU or product code is typically unique
     # So we could do something like this:
     # df = df.drop_duplicates(subset=['product_code'])
-    df = df.drop_duplicates()
+    if 'ProductID' in df.columns:
+        df = df.drop_duplicates(subset=['ProductID'])
+    else:
+        df = df.drop_duplicates()
     
     removed_count = initial_count - len(df)
     logger.info(f"Removed {removed_count} duplicate rows")
@@ -121,30 +127,29 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     logger.info(f"FUNCTION START: handle_missing_values with dataframe shape={df.shape}")
     
     # Log missing values by column before handling
-    # NA means missing or "not a number" - ask your AI for details
     missing_by_col = df.isna().sum()
     logger.info(f"Missing values by column before handling:\n{missing_by_col}")
     
-    # TODO: OPTIONAL - We can implement appropriate missing value handling 
-    # specific to our data. 
-    # For example: Different strategies may be needed for different columns
-    # USE YOUR COLUMN NAMES - these are just examples
-    # df['product_name'].fillna('Unknown Product', inplace=True)
-    # df['description'].fillna('', inplace=True)
-    # df['price'].fillna(df['price'].median(), inplace=True)
-    # df['category'].fillna(df['category'].mode()[0], inplace=True)
-    # df.dropna(subset=['product_code'], inplace=True)  # Remove rows without product code
-    
+    # Fill missing Supplier based on Category mapping
+    df['Supplier'].fillna(df['Category'].map({
+        'Clothing': 'BigTimeOutfitters',
+        'Sports': 'ScoreMore',
+        'Electronics': 'IGS'
+    }), inplace=True)
+
+    # Fill remaining missing values with empty strings
+    df.fillna('', inplace=True)
+
     # Log missing values by column after handling
     missing_after = df.isna().sum()
     logger.info(f"Missing values by column after handling:\n{missing_after}")
     logger.info(f"{len(df)} records remaining after handling missing values.")
+    
     return df
 
 def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Remove outliers based on thresholds.
-    This logic is very specific to the actual data and business rules.
+    Remove outliers based on the IQR method for numeric columns.
 
     Args:
         df (pd.DataFrame): Input DataFrame.
@@ -154,7 +159,7 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     """
     logger.info(f"FUNCTION START: remove_outliers with dataframe shape={df.shape}")
     initial_count = len(df)
-    
+
     # TODO: Identify numeric columns that might have outliers.
     # Recommended - just use ranges based on reasonable data
     # People should not be 22 feet tall, etc. 
@@ -169,10 +174,24 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     #         upper_bound = Q3 + 1.5 * IQR
     #         df = df[(df[col] >= lower_bound) & (df[col] <= upper_bound)]
     #         logger.info(f"Applied outlier removal to {col}: bounds [{lower_bound}, {upper_bound}]")
-    
+
+    ranges = {
+        'UnitPrice': (0, 10_000),     # Prices should be between $0 and $10,000
+        'Quantity': (0, 1_000_000)    # Quantity between 0 and 1,000,000
+    }
+
+    # Apply the range filters
+    for col, (min_val, max_val) in ranges.items():
+        if col in df.columns and df[col].dtype in ['int64', 'float64']:
+            before_filter = len(df)
+            df = df[(df[col] >= min_val) & (df[col] <= max_val)]
+            removed = before_filter - len(df)
+            logger.info(f"Filtered out {removed} rows from '{col}' outside range [{min_val}, {max_val}]")
+
     removed_count = initial_count - len(df)
     logger.info(f"Removed {removed_count} outlier rows")
     logger.info(f"{len(df)} records remaining after removing outliers.")
+    
     return df
 
 def standardize_formats(df: pd.DataFrame) -> pd.DataFrame:
@@ -195,6 +214,13 @@ def standardize_formats(df: pd.DataFrame) -> pd.DataFrame:
     # df['price'] = df['price'].round(2)  # Round prices to 2 decimal places
     # df['weight_unit'] = df['weight_unit'].str.upper()  # Uppercase units
     
+    # Standardize ProductName (title case) and Category (lowercase)
+    df['ProductName'] = df['ProductName'].str.title()
+    df['Category'] = df['Category'].str.lower()
+    
+    # Round UnitPrice to 2 decimal places
+    df['UnitPrice'] = df['UnitPrice'].round(2)
+
     logger.info("Completed standardizing formats")
     return df
 
@@ -217,6 +243,9 @@ def validate_data(df: pd.DataFrame) -> pd.DataFrame:
     # logger.info(f"Found {invalid_prices} products with negative prices")
     # df = df[df['price'] >= 0]
     
+    # Remove rows with negative prices or quantities
+    df = df[(df['UnitPrice'] >= 0) & (df['Quantity'] >= 0)]
+
     logger.info("Data validation complete")
     return df
 
@@ -244,7 +273,7 @@ def main() -> None:
     
     # Clean column names
     original_columns = df.columns.tolist()
-    df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
+    df.columns = df.columns.str.strip().str.replace(' ', '_')
     
     # Log if any column names changed
     changed_columns = [f"{old} -> {new}" for old, new in zip(original_columns, df.columns) if old != new]
