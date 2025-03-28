@@ -81,3 +81,32 @@ Find raw data .csv files in course repo and download to data\raw folder
 ```
 py scripts\data_prep.py
 ```
+
+### 13. Data Collection
+1. Add to `customers_data.csv`: LoyaltyPoints and PreferredContactMethod columns
+2. Add to `products_data.csv`: Quantity and Supplier columns
+3. Add to `sales_data.csv`: BonusPoints and State
+4. Add fake data to all the new columns
+   
+### Data Cleaning & ETL Preparation
+1. Create `data_preparation` subfolder in the `scripts` folder
+2. Create a Python file fr each table
+   * prepare_customers_data.py
+   * prepare_products_data.py
+   * prepare_sales_data.py
+3. Copy/paste the Module 3 example scripts found in GitHub into each Python file
+4. Make adjustments to the scripts as needed to clean the raw data files
+
+### Prepare Data for ETL
+1. Create `data_scrubber.py` file in the `data_preparation` folder
+2. Copy/Paste the example `data_scrubber.py` from GitHub into the new file
+3. Complete the TODO within the `data_scrubber.py`
+4. Create `tests` folder in the root project folder
+5. Create `test_data_scrubber.py` file in the `tests` folder
+6. Copy/Paste the example `test_data_scrubber.py` from GitHub into the new file
+7. Run the test script from the root project folder
+```
+py tests\test_data_scrubber.py
+```
+8. Make sure all tests pass
+9. DataScrubber can now be added to `data_preparation` files
