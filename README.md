@@ -110,3 +110,35 @@ py tests\test_data_scrubber.py
 ```
 8. Make sure all tests pass
 9. DataScrubber can now be added to `data_preparation` files
+
+### Complete Data Preparation
+1. Run `data_prep.py`
+
+### Design Data Warehouse
+1. Create schema using the Star Schema
+* Fact Table: Sales
+   - Primary Key: transaction_id
+   - Foreign Keys: customer_id and product_id
+* Dimension Tables: Customers, Products
+   - Primary Keys: customer_id, product_id
+* Dates work best as TEXT data type in SQLite
+
+### Create Data Warehouse
+1. Define the schema for the fact and dimension tables
+2. Ensure fact table includes foreign keys that reference the primary keys of the dimension tables
+3. Follow conventions for naming tables and columns
+4. Run the python file to create the `dw` folder with the `smart_sales.db` data warehouse
+```
+py scripts\create_dw.py
+```
+
+### Implement DW
+* Add the data from the prepared CSV files to the data warehouse
+```
+py scripts\etl_to_dw.py
+```
+
+Examples:
+![Screenshot](screenshots/customers.jpg)
+![Screenshot](screenshots/products.jpg)
+![Screenshot](screenshots/sales.jpg)

@@ -2,6 +2,10 @@
 
 # Python virtual environment folder
 .venv/
+screenshots
+rename_columns.py
+initial_analysis_results.txt
+initial_analysis.py
 
 # Visual Studio Code settings and workspace folder - Ignore entire .vscode folder except settings.json
 .vscode/*
