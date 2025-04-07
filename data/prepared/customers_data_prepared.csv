@@ -1,4 +1,4 @@
-CustomerID,Name,Region,JoinDate,LoyaltyPoints,PreferredContactMethod
+customer_id,name,region,join_date,loyalty_points,preferred_contact_method
 1001,William White,East,11/11/2021,1250,Unknown
 1003,Dan Brown,West,10/19/2023,817,Text
 1004,Chewbacca,West,11/9/2022,3510,Text
