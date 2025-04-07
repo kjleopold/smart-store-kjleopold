@@ -40,9 +40,11 @@ def create_customer_table(cursor: sqlite3.Cursor) -> None:
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS customer (
                 customer_id INTEGER PRIMARY KEY,
-                name TEXT NOT NULL,
+                name TEXT,
                 region TEXT,
-                join_date TEXT  -- ISO 8601 format recommended for SQLite
+                join_date TEXT,
+                loyalty_points INTEGER,
+                preferred_contact_method TEXT
             )
         """)
         logger.info("customer table created.")
@@ -55,9 +57,11 @@ def create_product_table(cursor: sqlite3.Cursor) -> None:
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS product (
                 product_id INTEGER PRIMARY KEY,
-                name TEXT NOT NULL,
+                product_name TEXT,
                 category TEXT,
-                unit_price_usd REAL NOT NULL
+                unit_price REAL,
+                quantity INTEGER,
+                supplier TEXT
             )
         """)
         logger.info("product table created.")
@@ -69,14 +73,15 @@ def create_sale_table(cursor: sqlite3.Cursor) -> None:
     try:
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS sale (
-                sale_id INTEGER PRIMARY KEY,
+                transaction_id INTEGER PRIMARY KEY,
+                sale_date TEXT,
                 customer_id INTEGER,
                 product_id INTEGER,
                 store_id INTEGER,
                 campaign_id INTEGER,
-                sale_date DATE,
-                quantity INTEGER NOT NULL,
-                sale_amount_usd INTEGER NOT NULL,
+                sale_amount REAL,
+                bonus_points INTEGER,
+                state TEXT,
                 FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
                 FOREIGN KEY (product_id) REFERENCES product(product_id)
             )

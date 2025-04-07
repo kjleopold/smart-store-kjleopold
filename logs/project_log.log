@@ -861,3 +861,45 @@ dtype: int64
 2025-03-26 22:21:03.343 | INFO     | __main__:main:297 - ==================================
 2025-03-26 22:21:03.343 | INFO     | __main__:main:298 - FINISHED prepare_sales_data.py
 2025-03-26 22:21:03.343 | INFO     | __main__:main:299 - ==================================
+2025-04-06 21:17:05.078 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:17:05.078 | INFO     | __main__:main:115 - Starting data warehouse creation...
+2025-04-06 21:17:05.081 | INFO     | __main__:create_customer_table:48 - customer table created.
+2025-04-06 21:17:05.082 | INFO     | __main__:create_product_table:63 - product table created.
+2025-04-06 21:17:05.083 | INFO     | __main__:create_sale_table:84 - sale table created.
+2025-04-06 21:17:05.083 | INFO     | __main__:create_dw:103 - Data warehouse created successfully.
+2025-04-06 21:17:05.084 | INFO     | __main__:main:117 - Data warehouse creation complete.
+2025-04-06 21:24:43.764 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:24:43.765 | INFO     | __main__:main:119 - Starting data warehouse creation...
+2025-04-06 21:24:43.767 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-06 21:24:43.768 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-06 21:24:43.770 | INFO     | __main__:create_sale_table:88 - sale table created.
+2025-04-06 21:24:43.770 | INFO     | __main__:create_dw:107 - Data warehouse created successfully.
+2025-04-06 21:24:43.770 | INFO     | __main__:main:121 - Data warehouse creation complete.
+2025-04-06 21:31:55.324 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:31:55.324 | INFO     | __main__:main:119 - Starting data warehouse creation...
+2025-04-06 21:31:55.326 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-06 21:31:55.328 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-06 21:31:55.329 | INFO     | __main__:create_sale_table:88 - sale table created.
+2025-04-06 21:31:55.329 | INFO     | __main__:create_dw:107 - Data warehouse created successfully.
+2025-04-06 21:31:55.330 | INFO     | __main__:main:121 - Data warehouse creation complete.
+2025-04-06 21:34:07.837 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:34:07.838 | INFO     | __main__:main:119 - Starting data warehouse creation...
+2025-04-06 21:34:07.840 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-06 21:34:07.841 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-06 21:34:07.842 | INFO     | __main__:create_sale_table:88 - sale table created.
+2025-04-06 21:34:07.843 | INFO     | __main__:create_dw:107 - Data warehouse created successfully.
+2025-04-06 21:34:07.843 | INFO     | __main__:main:121 - Data warehouse creation complete.
+2025-04-06 21:37:36.212 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:37:36.212 | INFO     | __main__:main:119 - Starting data warehouse creation...
+2025-04-06 21:37:36.214 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-06 21:37:36.216 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-06 21:37:36.217 | INFO     | __main__:create_sale_table:88 - sale table created.
+2025-04-06 21:37:36.217 | INFO     | __main__:create_dw:107 - Data warehouse created successfully.
+2025-04-06 21:37:36.218 | INFO     | __main__:main:121 - Data warehouse creation complete.
+2025-04-06 21:42:35.680 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:42:35.680 | INFO     | __main__:main:120 - Starting data warehouse creation...
+2025-04-06 21:42:35.683 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-06 21:42:35.684 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-06 21:42:35.686 | INFO     | __main__:create_sale_table:89 - sale table created.
+2025-04-06 21:42:35.686 | INFO     | __main__:create_dw:108 - Data warehouse created successfully.
+2025-04-06 21:42:35.686 | INFO     | __main__:main:122 - Data warehouse creation complete.

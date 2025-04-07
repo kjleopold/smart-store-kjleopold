@@ -1,0 +1,7 @@
+2025-04-06 21:14:43.299 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-06 21:14:43.300 | INFO     | __main__:main:115 - Starting data warehouse creation...
+2025-04-06 21:14:43.305 | INFO     | __main__:create_customer_table:48 - customer table created.
+2025-04-06 21:14:43.307 | INFO     | __main__:create_product_table:63 - product table created.
+2025-04-06 21:14:43.308 | INFO     | __main__:create_sale_table:84 - sale table created.
+2025-04-06 21:14:43.309 | INFO     | __main__:create_dw:103 - Data warehouse created successfully.
+2025-04-06 21:14:43.309 | INFO     | __main__:main:117 - Data warehouse creation complete.
