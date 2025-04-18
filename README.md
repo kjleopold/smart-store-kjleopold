@@ -88,7 +88,7 @@ py scripts\data_prep.py
 3. Add to `sales_data.csv`: BonusPoints and State
 4. Add fake data to all the new columns
    
-### Data Cleaning & ETL Preparation
+### 14. Data Cleaning & ETL Preparation
 1. Create `data_preparation` subfolder in the `scripts` folder
 2. Create a Python file fr each table
    * prepare_customers_data.py
@@ -97,7 +97,7 @@ py scripts\data_prep.py
 3. Copy/paste the Module 3 example scripts found in GitHub into each Python file
 4. Make adjustments to the scripts as needed to clean the raw data files
 
-### Prepare Data for ETL
+### 15. Prepare Data for ETL
 1. Create `data_scrubber.py` file in the `data_preparation` folder
 2. Copy/Paste the example `data_scrubber.py` from GitHub into the new file
 3. Complete the TODO within the `data_scrubber.py`
@@ -111,10 +111,10 @@ py tests\test_data_scrubber.py
 8. Make sure all tests pass
 9. DataScrubber can now be added to `data_preparation` files
 
-### Complete Data Preparation
+### 16. Complete Data Preparation
 1. Run `data_prep.py`
 
-### Design Data Warehouse
+### 17. Design Data Warehouse
 1. Create schema using the Star Schema
 * Fact Table: Sales
    - Primary Key: transaction_id
@@ -123,7 +123,7 @@ py tests\test_data_scrubber.py
    - Primary Keys: customer_id, product_id
 * Dates work best as TEXT data type in SQLite
 
-### Create Data Warehouse
+### 18. Create Data Warehouse
 1. Define the schema for the fact and dimension tables
 2. Ensure fact table includes foreign keys that reference the primary keys of the dimension tables
 3. Follow conventions for naming tables and columns
@@ -132,7 +132,7 @@ py tests\test_data_scrubber.py
 py scripts\create_dw.py
 ```
 
-### Implement DW
+### 19. Implement DW
 * Add the data from the prepared CSV files to the data warehouse
 ```
 py scripts\etl_to_dw.py
@@ -142,3 +142,38 @@ Examples:
 ![Screenshot](screenshots/customers.jpg)
 ![Screenshot](screenshots/products.jpg)
 ![Screenshot](screenshots/sales.jpg)
+
+### 20. Power BI Query and Dashboard
+* The below code was used to transform the customer data table to a table that sorted the customers by the amount they spent. ChatGPT was a big help with converting the SQL code to M code for use in Power BI Advanced Editor.
+```
+let
+    // Connect to the data source
+    Source = Odbc.DataSource("dsn=SmartSalesDSN", [HierarchicalNavigation=true]),
+
+    // Load the sale and customer tables
+    sale_Table = Source{[Name="sale", Kind="Table"]}[Data],
+    customer_Table = Source{[Name="customer", Kind="Table"]}[Data],
+
+    // Join sale with customer on customer_id
+    MergedTables = Table.NestedJoin(sale_Table, "customer_id", customer_Table, "customer_id", "CustomerData", JoinKind.Inner),
+
+    // Expand the customer name from the joined table
+    ExpandedTable = Table.ExpandTableColumn(MergedTables, "CustomerData", {"name"}),
+
+    // Group by customer name and sum the sale_amount
+    GroupedTable = Table.Group(ExpandedTable, {"name"}, {{"total_spent", each List.Sum([sale_amount]), type number}}),
+
+    // Sort the results by total_spent in descending order
+    SortedTable = Table.Sort(GroupedTable, {{"total_spent", Order.Descending}})
+in
+    SortedTable
+```
+
+* This is the resulting table.
+![Screenshot](screenshots/Top_Customers.jpg)
+
+* This screenshot represents the model view for my tables.
+![Screenshot](screenshots/PowerBI_Model_View.jpg)
+
+* This screenshot represents the final dashboard I came up with.
+![Screenshot](PowerBI_Final_Dashboard.jpg)
