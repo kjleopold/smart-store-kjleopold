@@ -1,4 +1,4 @@
-transaction_id,sale_date,customer_id,product_id,store_id,campaign_id,sale_amount,bonus_points,Region
+transaction_id,sale_date,customer_id,product_id,store_id,campaign_id,sale_amount,bonus_points,region
 550,1/6/2024,1008,102,404,0,39.1,5,North
 552,1/16/2024,1004,107,404,0,335.1,6,West
 553,1/16/2024,1006,102,406,0,195.5,1,Unknown
