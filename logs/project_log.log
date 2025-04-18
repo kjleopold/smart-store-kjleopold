@@ -903,3 +903,11 @@ dtype: int64
 2025-04-06 21:42:35.686 | INFO     | __main__:create_sale_table:89 - sale table created.
 2025-04-06 21:42:35.686 | INFO     | __main__:create_dw:108 - Data warehouse created successfully.
 2025-04-06 21:42:35.686 | INFO     | __main__:main:122 - Data warehouse creation complete.
+2025-04-18 10:04:15.118 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 10:04:15.118 | INFO     | __main__:<module>:33 - Existing database data\dw\smart_sales.db deleted.
+2025-04-18 10:04:15.118 | INFO     | __main__:main:120 - Starting data warehouse creation...
+2025-04-18 10:04:15.121 | INFO     | __main__:create_customer_table:50 - customer table created.
+2025-04-18 10:04:15.122 | INFO     | __main__:create_product_table:67 - product table created.
+2025-04-18 10:04:15.124 | INFO     | __main__:create_sale_table:89 - sale table created.
+2025-04-18 10:04:15.124 | INFO     | __main__:create_dw:108 - Data warehouse created successfully.
+2025-04-18 10:04:15.124 | INFO     | __main__:main:122 - Data warehouse creation complete.

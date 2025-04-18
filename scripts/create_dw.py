@@ -81,7 +81,7 @@ def create_sale_table(cursor: sqlite3.Cursor) -> None:
                 campaign_id INTEGER,
                 sale_amount REAL,
                 bonus_points INTEGER,
-                state TEXT,
+                region TEXT,
                 FOREIGN KEY (customer_id) REFERENCES customer(customer_id),
                 FOREIGN KEY (product_id) REFERENCES product(product_id)
             )
