@@ -5,6 +5,8 @@
 rename_columns.py
 initial_analysis_results.txt
 initial_analysis.py
+slice_dice_drilldown.pbix
+top_customers.pbix
 
 # Visual Studio Code settings and workspace folder - Ignore entire .vscode folder except settings.json
 .vscode/*
