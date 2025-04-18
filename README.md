@@ -169,11 +169,11 @@ in
     SortedTable
 ```
 
-* This is the resulting table.
+* This is the resulting table.  
 ![Screenshot](screenshots/Top_Customers.jpg)
 
 * This screenshot represents the model view for my tables.
 ![Screenshot](screenshots/PowerBI_Model_View.jpg)
 
 * This screenshot represents the final dashboard I came up with.
-![Screenshot](PowerBI_Final_Dashboard.jpg)
+![Screenshot](screenshots/PowerBI_Final_Dashboard.jpg)
