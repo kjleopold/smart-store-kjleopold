@@ -1,0 +1,510 @@
+age,gender,spotify_usage_period,spotify_subscription_plan,premium_sub_willingness,preferred_premium_plan
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+20-35,Male,More than 2 years,Free,Yes,Individual Plan
+35-60,Others,6 months to 1 year,Free,Yes,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,More than 2 years,Family Plan,Yes,Family Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,6 months to 1 year,Student Plan,Yes,Student Plan
+35-60,Male,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,Yes,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Student Plan
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+35-60,Male,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,Less than 6 months,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Family Plan,Yes,Family Plan
+20-35,Male,More than 2 years,Free,Yes,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Male,6 months to 1 year,Free,No,Free
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Others,1 year to 2 years,Student Plan,Yes,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Duo plan
+35-60,Male,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Duo plan
+35-60,Male,Less than 6 months,Free,No,Free
+20-35,Others,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,6 months to 1 year,Free,Yes,Duo plan
+20-35,Male,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Individual Plan
+35-60,Others,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,Less than 6 months,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Duo plan,Yes,Duo plan
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,More than 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,6 months to 1 year,Free,Yes,Student Plan
+20-35,Male,More than 2 years,Free,No,Free
+35-60,Male,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,1 year to 2 years,Family Plan,Yes,Family Plan
+35-60,Female,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Family Plan,Yes,Family Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Family Plan,Yes,Family Plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+35-60,Male,6 months to 1 year,Free,No,Free
+20-35,Male,6 months to 1 year,Free,Yes,Student Plan
+20-35,Female,1 year to 2 years,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+35-60,Female,1 year to 2 years,Free,Yes,Family Plan
+20-35,Female,6 months to 1 year,Free,Yes,Family Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+35-60,Others,More than 2 years,Family Plan,Yes,Family Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Others,6 months to 1 year,Free,No,Free
+20-35,Male,6 months to 1 year,Free,No,Free
+35-60,Male,6 months to 1 year,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+35-60,Female,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+35-60,Female,More than 2 years,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Student Plan
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,6 months to 1 year,Free,Yes,Student Plan
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Student Plan
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,1 year to 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Student Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Family Plan
+20-35,Male,More than 2 years,Free,No,Individual Plan
+20-35,Male,1 year to 2 years,Free,No,Student Plan
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,Less than 6 months,Duo plan,No,Duo plan
+20-35,Female,More than 2 years,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Individual Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,6 months to 1 year,Free,No,Student Plan
+20-35,Male,6 months to 1 year,Free,No,Student Plan
+20-35,Female,More than 2 years,Student Plan,Yes,Student Plan
+20-35,Female,More than 2 years,Free,No,Duo plan
+20-35,Male,6 months to 1 year,Free,No,Free
+20-35,Male,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Male,6 months to 1 year,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,No,Duo plan
+20-35,Male,More than 2 years,Family Plan,Yes,Family Plan
+20-35,Female,6 months to 1 year,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Duo plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Others,1 year to 2 years,Free,Yes,Family Plan
+20-35,Female,6 months to 1 year,Duo plan,No,Duo plan
+20-35,Female,1 year to 2 years,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Family Plan,No,Family Plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Individual Plan,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Family Plan
+35-60,Female,1 year to 2 years,Free,No,Family Plan
+35-60,Female,Less than 6 months,Duo plan,No,Duo plan
+35-60,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Family Plan,No,Family Plan
+20-35,Female,1 year to 2 years,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Individual Plan
+35-60,Female,1 year to 2 years,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Family Plan,No,Family Plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Duo plan,Yes,Duo plan
+20-35,Female,1 year to 2 years,Duo plan,No,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Individual Plan,No,Individual Plan
+20-35,Female,6 months to 1 year,Individual Plan,Yes,Individual Plan
+20-35,Others,1 year to 2 years,Family Plan,No,Family Plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Family Plan,No,Family Plan
+20-35,Female,1 year to 2 years,Family Plan,Yes,Family Plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Family Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Student Plan
+20-35,Male,More than 2 years,Free,Yes,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Male,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Duo plan
+20-35,Female,Less than 6 months,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Free
+20-35,Female,More than 2 years,Free,No,Individual Plan
+20-35,Female,1 year to 2 years,Student Plan,Yes,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,Less than 6 months,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Male,More than 2 years,Free,No,Student Plan
+60+,Female,1 year to 2 years,Free,No,Duo plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,Yes,Student Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Male,More than 2 years,Free,No,Student Plan
+20-35,Male,1 year to 2 years,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Family Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Male,More than 2 years,Free,Yes,Student Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Male,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,1 year to 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Male,Less than 6 months,Free,No,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Duo plan
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+20-35,Female,1 year to 2 years,Free,No,Individual Plan
+20-35,Male,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Student Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+35-60,Male,6 months to 1 year,Free,No,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,Yes,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,Yes,Duo plan
+20-35,Female,Less than 6 months,Free,No,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Individual Plan
+20-35,Female,1 year to 2 years,Free,Yes,Student Plan
+20-35,Male,1 year to 2 years,Student Plan,Yes,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Duo plan
+20-35,Female,More than 2 years,Free,No,Duo plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,Less than 6 months,Free,No,Student Plan
+20-35,Male,1 year to 2 years,Free,No,Duo plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Duo plan
+20-35,Male,Less than 6 months,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Individual Plan
+20-35,Female,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Female,6 months to 1 year,Free,No,Free
+20-35,Male,1 year to 2 years,Student Plan,Yes,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,Less than 6 months,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,No,Family Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Family Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Free,No,Family Plan
+20-35,Male,More than 2 years,Free,Yes,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Free,No,Free
+20-35,Others,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Individual Plan,No,Individual Plan
+20-35,Female,6 months to 1 year,Individual Plan,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Duo plan,No,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Family Plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Others,1 year to 2 years,Free,No,Duo plan
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Free,Yes,Family Plan
+35-60,Female,6 months to 1 year,Free,No,Duo plan
+35-60,Female,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Others,6 months to 1 year,Individual Plan,Yes,Individual Plan
+20-35,Female,1 year to 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,6 months to 1 year,Individual Plan,Yes,Individual Plan
+35-60,Female,6 months to 1 year,Family Plan,No,Family Plan
+20-35,Female,Less than 6 months,Duo plan,No,Duo plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Male,6 months to 1 year,Family Plan,No,Family Plan
+20-35,Female,1 year to 2 years,Free,No,Family Plan
+20-35,Male,6 months to 1 year,Free,Yes,Duo plan
+20-35,Others,6 months to 1 year,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Female,1 year to 2 years,Duo plan,No,Duo plan
+20-35,Female,1 year to 2 years,Family Plan,Yes,Family Plan
+20-35,Female,1 year to 2 years,Free,Yes,Family Plan
+20-35,Male,6 months to 1 year,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Family Plan
+20-35,Female,1 year to 2 years,Family Plan,Yes,Family Plan
+20-35,Male,More than 2 years,Free,No,Duo plan
+20-35,Female,1 year to 2 years,Free,Yes,Individual Plan
+20-35,Male,6 months to 1 year,Free,Yes,Individual Plan
+20-35,Male,1 year to 2 years,Student Plan,Yes,Student Plan
+20-35,Female,6 months to 1 year,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Free,Yes,Family Plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Male,6 months to 1 year,Free,Yes,Duo plan
+20-35,Others,1 year to 2 years,Free,No,Duo plan
+20-35,Male,More than 2 years,Student Plan,Yes,Student Plan
+20-35,Female,1 year to 2 years,Free,Yes,Duo plan
+20-35,Male,Less than 6 months,Duo plan,Yes,Duo plan
+20-35,Female,Less than 6 months,Free,No,Duo plan
+20-35,Female,6 months to 1 year,Duo plan,Yes,Duo plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Male,More than 2 years,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,No,Free
+20-35,Female,More than 2 years,Free,Yes,Student Plan
+20-35,Female,More than 2 years,Free,Yes,Student Plan
+20-35,Female,More than 2 years,Free,No,Student Plan
+20-35,Female,6 months to 1 year,Individual Plan,Yes,Individual Plan
+20-35,Female,More than 2 years,Student Plan,Yes,Student Plan
