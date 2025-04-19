@@ -189,13 +189,13 @@ in
   * Category: Broad classification of products
   * Product Name: Specific items sold
   * Region: Geographic sales areas
-  * Time: Includes Year, Quarter, and Month via date hierarchy
+  * Time: Includes Year, Quarter, and Month via date hierarchy  
 * Metrics used:
-  * Total Sales Amount: aggregated using SUM(sale_amount_sum)
+  * Total Sales Amount: aggregated using SUM(sale_amount_sum)  
 * OLAP Techniques Applied:  
   * Slicing: Time-based slicing across Year, Quarter, and Month
   * Dicing: Focused analysis on combinations of Region and Product
-  * Drilldown: Enabled through a date hierarchy for time-based exploration
+  * Drilldown: Enabled through a date hierarchy for time-based exploration  
 * Logic:  
   * Data is structured around key business dimensions (Region, Product, Time, and Category) and aggregated by total sales.
   * A date hierarchy is implemented to allow drilldown from Year to Month.
