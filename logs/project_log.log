@@ -1533,3 +1533,32 @@ dtype: int64
 2025-04-18 21:31:25.468 | INFO     | __main__:create_sale_table:89 - sale table created.
 2025-04-18 21:31:25.468 | INFO     | __main__:create_dw:108 - Data warehouse created successfully.
 2025-04-18 21:31:25.468 | INFO     | __main__:main:122 - Data warehouse creation complete.
+2025-04-18 21:34:49.748 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:34:49.749 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:34:49.750 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:34:49.757 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['DayOfWeek', 'product_id', 'customer_id', 'Month', 'region']
+2025-04-18 21:34:49.759 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-18 21:34:49.759 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
+2025-04-18 21:34:49.759 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
+2025-04-18 21:37:55.321 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:37:55.321 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:37:55.323 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:37:55.326 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: 'DayOfWeek'
+2025-04-18 21:38:04.227 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:38:04.227 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:38:04.229 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:38:04.231 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: 'DayOfWeek'
+2025-04-18 21:38:35.443 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:38:35.443 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:38:35.445 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:38:35.453 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['day_of_week', 'product_id', 'customer_id', 'month', 'region']
+2025-04-18 21:38:35.455 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-18 21:38:35.455 | INFO     | __main__:main:234 - OLAP Cubing process completed successfully.
+2025-04-18 21:38:35.455 | INFO     | __main__:main:235 - Please see outputs in data\olap_cubing_outputs
+2025-04-18 21:39:32.213 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:39:32.214 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:39:32.215 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:39:32.223 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['day_of_week', 'product_id', 'customer_id', 'month', 'month_name', 'region']
+2025-04-18 21:39:32.226 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-18 21:39:32.226 | INFO     | __main__:main:234 - OLAP Cubing process completed successfully.
+2025-04-18 21:39:32.226 | INFO     | __main__:main:235 - Please see outputs in data\olap_cubing_outputs
