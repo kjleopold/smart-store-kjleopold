@@ -217,9 +217,10 @@ def main():
     sales_df["month"] = sales_df["sale_date"].dt.month
     sales_df["month_name"] = sales_df["sale_date"].dt.month_name()
     sales_df["year"] = sales_df["sale_date"].dt.year
+    sales_df["date"] = sales_df["sale_date"].dt.strftime("%m/%d/%y")
 
     # Step 3: Define dimensions and metrics for the cube
-    dimensions = ["day_of_week", "product_id", "customer_id", "month", "month_name", "region"]
+    dimensions = ["date", "day_of_week", "product_id", "customer_id", "month", "month_name", "region"]
     metrics = {
         "sale_amount": ["sum", "mean"],
         "transaction_id": "count"

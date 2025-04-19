@@ -1571,3 +1571,10 @@ dtype: int64
 2025-04-18 21:45:44.992 | INFO     | __main__:main:124 - Close the Figure to complete this script.
 2025-04-18 21:45:45.139 | INFO     | __main__:visualize_sales_by_weekday:104 - Visualization saved to data\results\sales_by_day_of_week.png.
 2025-04-18 21:46:02.314 | INFO     | __main__:main:128 - Analysis and visualization completed successfully.
+2025-04-18 21:53:27.920 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:53:27.921 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-18 21:53:27.922 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-18 21:53:27.932 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['date', 'day_of_week', 'product_id', 'customer_id', 'month', 'month_name', 'region']
+2025-04-18 21:53:27.935 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-18 21:53:27.935 | INFO     | __main__:main:235 - OLAP Cubing process completed successfully.
+2025-04-18 21:53:27.935 | INFO     | __main__:main:236 - Please see outputs in data\olap_cubing_outputs
