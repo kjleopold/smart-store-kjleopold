@@ -210,12 +210,12 @@ The East region contributes over 50% of total sales, dominating all other region
 * Line Chart – Sales Trends Over Time (by Region)  
 The South and West regions follow similar trends, with the West peaking one month later. The East region experiences a sharp drop in May, followed by a major rebound in June–July. North remains stable.  
 * Matrix – Product Sales by Region  
-Laptops bring in the most revenue in three of the four regions. Cables consistently underperform across the board.  
+Laptops are the top-selling product, while cables consistently underperform across the board.  
 * Bar Chart – Product Category Sales by Region  
 Electronics lead in every region except the North, where Clothing takes the top spot. Sports is the lowest-selling category in all regions.  
 ![Screenshot](screenshots/olap_dashboards.jpg)
 ### 6. Suggested Business Actions  
-Based on the analysis, the East region is clearly pulling in the most sales, over 50%, so it makes sense to keep investing there. The North, on the other hand, might need some extra attention, like targeted marketing or special promotions, to help boost its performance. There’s a noticeable dip in East sales around mid-year, so some seasonal planning could help smooth that out. The South and West show similar trends, which could be a great chance to sync up inventory and campaigns between them. Laptops bring in the most revenue and could do even better with bundles or more promotion, while cables aren’t doing so hot and might need to be rethought. Electronics are strong across the board, clothing does especially well in the North, and sports gear is lagging everywhere, so product strategies should be adjusted based on what’s working where.
+Based on the analysis, the East region is clearly pulling in the most sales, over 50%, so it makes sense to keep investing there. The North, on the other hand, might need some extra attention, like targeted marketing or special promotions, to help boost its performance. There’s a noticeable dip in East sales around mid-year, so some seasonal planning could help smooth that out. The South and West show similar trends, which could be a great chance to sync up inventory and campaigns between them. Laptops are top sellers and could do even better with bundles or more promotion, while cables aren’t doing so hot and might need to be rethought. Electronics are strong across the board, clothing does especially well in the North, and sports gear is lagging everywhere, so product strategies should be adjusted based on what’s working where.
 ### 7. Challenges
 I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
 
