@@ -205,15 +205,16 @@ Power BI was used to get more practice with the capabilities the platform has to
   * Filtering and grouping logic is applied to compare regional and product-level sales trends.
   * Data model relationships support cross-filtering between categories, products, and regions for deeper analysis.  
 ### 5. Results  
-* Pie Chart – Total Sales by Region  
+* Pie Chart – Regional Sales Totals 
 The East region contributes over 50% of total sales, dominating all other regions. The North region underperforms, making up less than 5% of sales. South and West contribute 22% and 15%, respectively.  
-* Line Chart – Sales Trends Over Time (by Region)  
+* Line Chart – Regional Sales Trends (over time)  
 The South and West regions follow similar trends, with the West peaking one month later. The East region experiences a sharp drop in May, followed by a major rebound in June–July. North remains stable.  
-* Matrix – Product Sales by Region  
+* Matrix – Number of Sales per Product 
 Laptops are the top-selling product, while cables consistently underperform across the board.  
-* Bar Chart – Product Category Sales by Region  
+* Bar Chart – Regional Sales by Category  
 Electronics lead in every region except the North, where Clothing takes the top spot. Sports is the lowest-selling category in all regions.  
-
+This screenshot shows the completed dashboard.
+![Screenshot](screenshots/olap_dashboards.jpg)
 This screenshot shows how the visual changes when the slicer dates are adjusted.
 ![Screenshot](screenshots/olap_dashboards2.jpg)
 ### 6. Suggested Business Actions  
