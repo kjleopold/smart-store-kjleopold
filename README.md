@@ -214,7 +214,7 @@ Laptops are the top-selling product, while cables consistently underperform acro
 * Bar Chart – Regional Sales by Category  
 Electronics lead in every region except the North, where Clothing takes the top spot. Sports is the lowest-selling category in all regions.  
 This screenshot shows the completed dashboard.
-![Screenshot](screenshots/olap_dashboards.jpg)
+![Screenshot](screenshots/olap_dashboards_v2.jpg)
 This screenshot shows how the visual changes when the slicer dates are adjusted.
 ![Screenshot](screenshots/olap_dashboards2.jpg)
 ### 6. Suggested Business Actions  
