@@ -179,12 +179,12 @@ in
 ![Screenshot](screenshots/PowerBI_Final_Dashboard.jpg)
 
 ## Module 6 OLAP Project
-1. Business Goal: To identify sales trends by region across different categories and products.
-2. Data Source: This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
+### 1. Business Goal: To identify sales trends by region across different categories and products.
+### 2. Data Source: This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
 * Product Table Columns (data warehouse): `product_name`, `category`  
 * Multidimensional OLAP Cube Columns (pre-computed cube): `month_name`, `region`, `sale_amount_sum`
-3. Tools: Power BI was used to get more practice with the capabilities the platform has to offer.
-4. Workflow & Logic  
+### 3. Tools: Power BI was used to get more practice with the capabilities the platform has to offer.
+### 4. Workflow & Logic  
 * Dimensions used:  
   * Category: Broad classification of products
   * Product Name: Specific items sold
@@ -201,7 +201,7 @@ in
   * A date hierarchy is implemented to allow drilldown from Year to Month.
   * Filtering and grouping logic is applied to compare regional and product-level sales trends.
   * Data model relationships support cross-filtering between categories, products, and regions for deeper analysis.  
-5. Results  
+### 5. Results  
 * Pie Chart – Total Sales by Region  
   * Insight: The East region contributes over 50% of total sales, dominating all other regions.
   * Takeaway: The North region underperforms, making up less than 5% of sales. South and West contribute 22% and 15%, respectively.  
@@ -215,7 +215,7 @@ in
   * Insight: Electronics lead in every region except the North, where Clothing takes the top spot.
   * Takeaway: Sports is the lowest-selling category in all regions.  
 ![Screenshot](screenshots/olap_dashboards.jpg)
-6. Suggested Business Actions  
+### 6. Suggested Business Actions  
 Based on the analysis, the East region should be prioritized for continued investment, as it drives over 50% of total sales, while the North region may benefit from targeted marketing or promotional efforts to improve performance. The mid-year dip in East region sales suggests a need for proactive seasonal planning, and the similar trends in the South and West regions present an opportunity to coordinate inventory and campaign timing. High-performing products like laptops should be further promoted or bundled to increase value, while underperforming items like cables may require repositioning or removal. Electronics consistently lead across regions, while clothing performs best in the North and sports products underperform overall—indicating that regional product strategies should be refined to match demand patterns.
-7. Challenges: I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
+### 7. Challenges: I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
 
