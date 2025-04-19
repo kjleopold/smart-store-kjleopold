@@ -184,36 +184,36 @@ in
    * Product Table Columns (data warehouse): `product_name`, `category`  
    * Multidimensional OLAP Cube Columns (pre-computed cube): `month_name`, `region`, `sale_amount_sum`
 3. Tools: Power BI was used to get more practice with the capabilities the platform has to offer.
-4. Workflow & Logic
+4. Workflow & Logic  
    Dimensions used:  
    * Category: Broad classification of products
    * Product Name: Specific items sold
    * Region: Geographic sales areas
-   * Time: Includes Year, Quarter, and Month via date hierarchy
+   * Time: Includes Year, Quarter, and Month via date hierarchy  
    Metrics used:
-   * Total Sales Amount: aggregated using SUM(sale_amount_sum)
-   OLAP Techniques Applied:
+   * Total Sales Amount: aggregated using SUM(sale_amount_sum)  
+   OLAP Techniques Applied:  
    * Slicing: Time-based slicing across Year, Quarter, and Month
    * Dicing: Focused analysis on combinations of Region and Product
-   * Drilldown: Enabled through a date hierarchy for time-based exploration
-   Logic:
+   * Drilldown: Enabled through a date hierarchy for time-based exploration  
+   Logic:  
    * Data is structured around key business dimensions (Region, Product, Time, and Category) and aggregated by total sales.
    * A date hierarchy is implemented to allow drilldown from Year to Month.
    * Filtering and grouping logic is applied to compare regional and product-level sales trends.
-   * Data model relationships support cross-filtering between categories, products, and regions for deeper analysis.
-5. Results
-   Pie Chart – Total Sales by Region
+   * Data model relationships support cross-filtering between categories, products, and regions for deeper analysis.  
+5. Results  
+   Pie Chart – Total Sales by Region  
    * Insight: The East region contributes over 50% of total sales, dominating all other regions.
-   * Takeaway: The North region underperforms, making up less than 5% of sales. South and West contribute 22% and 15%, respectively.
-   Line Chart – Sales Trends Over Time (by Region)
+   * Takeaway: The North region underperforms, making up less than 5% of sales. South and West contribute 22% and 15%, respectively.  
+   Line Chart – Sales Trends Over Time (by Region)  
    * Insight: The South and West regions follow similar trends, with the West peaking one month later.
-   * Takeaway: The East region experiences a sharp drop in May, followed by a major rebound in June–July. North remains stable. 
-   Matrix – Product Sales by Region
+   * Takeaway: The East region experiences a sharp drop in May, followed by a major rebound in June–July. North remains stable.  
+   Matrix – Product Sales by Region  
    * Insight: Laptops are the top-selling product in all applicable regions, even though they're not available in every region.
-   * Takeaway: Cables consistently underperform across the board. 
-   Bar Chart – Product Category Sales by Region
+   * Takeaway: Cables consistently underperform across the board.  
+   Bar Chart – Product Category Sales by Region  
    * Insight: Electronics lead in every region except the North, where Clothing takes the top spot.
-   * Takeaway: Sports is the lowest-selling category in all regions.
+   * Takeaway: Sports is the lowest-selling category in all regions.  
   ![Screenshot](screenshots/olap_dashboards.jpg)
 6. Suggested Business Actions  
 Based on the analysis, the East region should be prioritized for continued investment, as it drives over 50% of total sales, while the North region may benefit from targeted marketing or promotional efforts to improve performance. The mid-year dip in East region sales suggests a need for proactive seasonal planning, and the similar trends in the South and West regions present an opportunity to coordinate inventory and campaign timing. High-performing products like laptops should be further promoted or bundled to increase value, while underperforming items like cables may require repositioning or removal. Electronics consistently lead across regions, while clothing performs best in the North and sports products underperform overall—indicating that regional product strategies should be refined to match demand patterns.
