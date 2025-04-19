@@ -182,7 +182,7 @@ in
 ***
 1. Business Goal: To identify sales trends by region across different categories and products.
 2. Data Source: This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
-* Product Table Columns (data warehouse): `product_name`, `category`  
-* Multidimensional OLAP Cube Columns (pre-computed cube): `month_name`, `region`, `sale_amount_sum`
+   * Product Table Columns (data warehouse): `product_name`, `category`  
+   * Multidimensional OLAP Cube Columns (pre-computed cube): `month_name`, `region`, `sale_amount_sum`
 3. Tools: Power BI was used to get more practice with the capabilities the platform has to offer.
 4. Workflow & Logic
