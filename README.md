@@ -210,7 +210,7 @@ The East region contributes over 50% of total sales, dominating all other region
 * Line Chart – Sales Trends Over Time (by Region)  
 The South and West regions follow similar trends, with the West peaking one month later. The East region experiences a sharp drop in May, followed by a major rebound in June–July. North remains stable.  
 * Matrix – Product Sales by Region  
-Laptops are the top-selling product in all applicable regions, even though they're not available in every region. Cables consistently underperform across the board.  
+Laptops are the top-selling product in three of the four regions. Cables consistently underperform across the board.  
 * Bar Chart – Product Category Sales by Region  
 Electronics lead in every region except the North, where Clothing takes the top spot. Sports is the lowest-selling category in all regions.  
 ![Screenshot](screenshots/olap_dashboards.jpg)
