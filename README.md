@@ -214,6 +214,8 @@ Laptops are the top-selling product, while cables consistently underperform acro
 * Bar Chart – Product Category Sales by Region  
 Electronics lead in every region except the North, where Clothing takes the top spot. Sports is the lowest-selling category in all regions.  
 ![Screenshot](screenshots/olap_dashboards.jpg)
+This screenshot shows how the visual changes when the slicer dates are adjusted.
+![Screenshot](screenshots/olap_dashboards2.jpg)
 ### 6. Suggested Business Actions  
 Based on the analysis, the East region is clearly pulling in the most sales, over 50%, so it makes sense to keep investing there. The North, on the other hand, might need some extra attention, like targeted marketing or special promotions, to help boost its performance. There’s a noticeable dip in East sales around mid-year, so some seasonal planning could help smooth that out. The South and West show similar trends, which could be a great chance to sync up inventory and campaigns between them. Laptops are top sellers and could do even better with bundles or more promotion, while cables aren’t doing so hot and might need to be rethought. Electronics are strong across the board, clothing does especially well in the North, and sports gear is lagging everywhere, so product strategies should be adjusted based on what’s working where.
 ### 7. Challenges
