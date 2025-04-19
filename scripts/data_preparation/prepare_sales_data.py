@@ -144,7 +144,6 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     # df['category'].fillna(df['category'].mode()[0], inplace=True)
     # df.dropna(subset=['product_code'], inplace=True)  # Remove rows without product code
     
-    df['State'].fillna('Unknown', inplace=True)
     df['BonusPoints'].fillna('0', inplace=True)
 
     # Log missing values by column after handling

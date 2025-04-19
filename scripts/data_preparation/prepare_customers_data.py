@@ -150,8 +150,6 @@ def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     # TODO: Define numeric columns and apply rules for outlier removal
     # Example:
     # df = df[(df['Age'] > 18) & (df['Age'] < 100)]
-
-    df = df[df['LoyaltyPoints'] > 500]
     
     removed_count = initial_count - len(df)
     logger.info(f"Removed {removed_count} outlier rows")

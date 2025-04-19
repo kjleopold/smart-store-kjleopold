@@ -1,4 +1,5 @@
 product_id,product_name,category,unit_price,quantity,supplier
+101,Laptop,electronics,793.12,12,IGS
 102,Hoodie,clothing,39.1,87,BigTimeOutfitters
 103,Cable,electronics,22.76,38,IGS
 104,Hat,clothing,43.1,76,BigTimeOutfitters
