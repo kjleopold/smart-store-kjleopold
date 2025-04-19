@@ -188,17 +188,17 @@ This project utilizes a data warehouse through an ODBC connection as well as a p
 ### 3. Tools
 Power BI was used to get more practice with the capabilities the platform has to offer.
 ### 4. Workflow & Logic  
-* Dimensions used:  
-  * Category: Broad classification of products
-  * Product Name: Specific items sold
-  * Region: Geographic sales areas
+* Dimensions Used:  
+  * Category: broad classification of products.
+  * Product Name: specific items sold.
+  * Region: geographic sales areas.
   * Time: Includes Year, Quarter, and Month via date hierarchy  
-* Metrics used:
-  * Total Sales Amount: aggregated using SUM(sale_amount_sum)  
+* Metrics Used:
+  * Total Sales Amount: aggregated using SUM(sale_amount_sum).  
 * OLAP Techniques Applied:  
-  * Slicing: Time-based slicing across Year, Quarter, and Month
-  * Dicing: Focused analysis on combinations of Region and Product
-  * Drilldown: Enabled through a date hierarchy for time-based exploration  
+  * Slicing: Time-based slicing across Year, Quarter, and Month.
+  * Dicing: Focused analysis on combinations of Region and Product.
+  * Drilldown: Enabled through a date hierarchy for time-based exploration.  
 * Logic:  
   * Data is structured around key business dimensions (Region, Product, Time, and Category) and aggregated by total sales.
   * A date hierarchy is implemented to allow drilldown from Year to Month.
@@ -222,4 +222,36 @@ This screenshot shows how the visual changes when the slicer dates are adjusted.
 Based on the analysis, the East region is clearly pulling in the most sales, over 50%, so it makes sense to keep investing there. The North, on the other hand, might need some extra attention, like targeted marketing or special promotions, to help boost its performance. There’s a noticeable dip in East sales around mid-year, so some seasonal planning could help smooth that out. The South and West show similar trends, which could be a great chance to sync up inventory and campaigns between them. Laptops are top sellers and could do even better with bundles or more promotion, while cables aren’t doing so hot and might need to be rethought. Electronics are strong across the board, clothing does especially well in the North, and sports gear is lagging everywhere, so product strategies should be adjusted based on what’s working where.
 ### 7. Challenges
 I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
+
+## Module 7 Project
+### 1. Business Goal
+To analyze a Spotify user survey dataset to improve Spotify's subscription conversion strategy.
+### 2. Data Source
+Main dataset was obtained from Kaggle: [Spotify User Behavior Survey](https://www.kaggle.com/datasets/coulsonlll/spotify-user-behavior-survey-data)  
+I also manually created a price list from the Spotify website for the current premium plans and pricing: [Spotify Premium Plans](https://www.spotify.com/us/premium/)  
+### 3. Tools Used
+My chosen tools were to create a data warehouse using Python scripts and load the tables to Power BI to do my analysis and create visuals.
+### 4. Workflow & Logic  
+* Data Understanding & Cleaning
+  * Dropped unneeded columns.
+  * Tried to use script to replace "None" values to "Free", but could not get the script to work so I did it manually. It wasn't hard or time consuming for this project, but I will need to work more on figuring out how to do it in code for future projects that aren't as cut and dry.
+* Dimensions Used:  
+  * Age: to understand usage across demographics
+  * Spotify Subscription Plan: to identify the popularity of different plans.
+  * Premium Subscription Willingness: to measure conversion potential.
+  * Preferred Premium Plan: to understand future preferences. 
+* Metrics and Calculations Used:
+  * Current premium revenue: sum calculated based on existing paid users and plan prices.
+  * Potential revenue: sum calculated by users willing to convert to their preferred premium plan.
+* Aggregations:
+  * User counts by age, current plan, willingness, and preference.
+  * Summing revenue to quantify current and potential earnings.
+* OLAP Techniques Applied:  
+  * Slice data by current plan.
+  * Dice data by willingness to pay, preferred plan, and price.
+  * Use hierarchies based on age to drill down to current and preferred plans. 
+* Logic:  
+  * Identify users on free plans who are willing to pay by performing aggregations on the data.
+  * Analyze age, current plan, and preferences to find patters in usage and potential upgrades.
+  * Calculate current vs. potential revenue based on users' preferred premium plans and pricing.
 
