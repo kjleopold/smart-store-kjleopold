@@ -1562,3 +1562,12 @@ dtype: int64
 2025-04-18 21:39:32.226 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
 2025-04-18 21:39:32.226 | INFO     | __main__:main:234 - OLAP Cubing process completed successfully.
 2025-04-18 21:39:32.226 | INFO     | __main__:main:235 - Please see outputs in data\olap_cubing_outputs
+2025-04-18 21:45:44.988 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-18 21:45:44.988 | INFO     | __main__:main:113 - Starting SALES_LOW_REVENUE_DAYOFWEEK analysis...
+2025-04-18 21:45:44.990 | INFO     | __main__:load_olap_cube:50 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-18 21:45:44.992 | INFO     | __main__:analyze_sales_by_weekday:66 - Sales aggregated by DayOfWeek successfully.
+2025-04-18 21:45:44.992 | INFO     | __main__:identify_least_profitable_day:77 - Least profitable day: Friday with revenue $8617.76.
+2025-04-18 21:45:44.992 | INFO     | __main__:main:123 - Least profitable day: Friday
+2025-04-18 21:45:44.992 | INFO     | __main__:main:124 - Close the Figure to complete this script.
+2025-04-18 21:45:45.139 | INFO     | __main__:visualize_sales_by_weekday:104 - Visualization saved to data\results\sales_by_day_of_week.png.
+2025-04-18 21:46:02.314 | INFO     | __main__:main:128 - Analysis and visualization completed successfully.
