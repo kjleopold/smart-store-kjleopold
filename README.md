@@ -179,11 +179,14 @@ in
 ![Screenshot](screenshots/PowerBI_Final_Dashboard.jpg)
 
 ## Module 6 OLAP Project
-### 1. Business Goal: To identify sales trends by region across different categories and products.
-### 2. Data Source: This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
+### 1. Business Goal
+To identify sales trends by region across different categories and products.
+### 2. Data Source
+This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
 * Product Table Columns (data warehouse): `product_name`, `category`  
 * Multidimensional OLAP Cube Columns (pre-computed cube): `month_name`, `region`, `sale_amount_sum`
-### 3. Tools: Power BI was used to get more practice with the capabilities the platform has to offer.
+### 3. Tools
+Power BI was used to get more practice with the capabilities the platform has to offer.
 ### 4. Workflow & Logic  
 * Dimensions used:  
   * Category: Broad classification of products
@@ -217,5 +220,6 @@ in
 ![Screenshot](screenshots/olap_dashboards.jpg)
 ### 6. Suggested Business Actions  
 Based on the analysis, the East region should be prioritized for continued investment, as it drives over 50% of total sales, while the North region may benefit from targeted marketing or promotional efforts to improve performance. The mid-year dip in East region sales suggests a need for proactive seasonal planning, and the similar trends in the South and West regions present an opportunity to coordinate inventory and campaign timing. High-performing products like laptops should be further promoted or bundled to increase value, while underperforming items like cables may require repositioning or removal. Electronics consistently lead across regions, while clothing performs best in the North and sports products underperform overall—indicating that regional product strategies should be refined to match demand patterns.
-### 7. Challenges: I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
+### 7. Challenges
+I had put in a lot of work to learn Power BI after the last module, so I didn't really run into any challenges or issues with this module. 
 
