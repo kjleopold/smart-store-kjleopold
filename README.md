@@ -178,8 +178,7 @@ in
 * This screenshot represents the final dashboard I came up with.
 ![Screenshot](screenshots/PowerBI_Final_Dashboard.jpg)
 
-### Module 6 OLAP Project
-***
+## Module 6 OLAP Project
 1. Business Goal: To identify sales trends by region across different categories and products.
 2. Data Source: This project utilizes a data warehouse through an ODBC connection as well as a pre-computed cube.
    * Product Table Columns (data warehouse): `product_name`, `category`  
