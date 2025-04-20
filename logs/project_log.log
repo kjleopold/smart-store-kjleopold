@@ -1650,3 +1650,10 @@ dtype: int64
 2025-04-19 17:28:49.466 | INFO     | __main__:create_prices_table:64 - prices table created.
 2025-04-19 17:28:49.466 | INFO     | __main__:create_dw:82 - Data warehouse created successfully.
 2025-04-19 17:28:49.466 | INFO     | __main__:main:96 - Data warehouse creation complete.
+2025-04-20 12:21:07.345 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-20 12:21:07.346 | INFO     | __main__:<module>:33 - Existing database mod_7_project\data\dw\spotify_data.db deleted.
+2025-04-20 12:21:07.346 | INFO     | __main__:main:94 - Starting data warehouse creation...
+2025-04-20 12:21:07.348 | INFO     | __main__:create_users_table:51 - users table created.
+2025-04-20 12:21:07.349 | INFO     | __main__:create_prices_table:64 - prices table created.
+2025-04-20 12:21:07.350 | INFO     | __main__:create_dw:82 - Data warehouse created successfully.
+2025-04-20 12:21:07.350 | INFO     | __main__:main:96 - Data warehouse creation complete.

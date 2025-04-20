@@ -13,7 +13,7 @@ age,gender,spotify_usage_period,spotify_subscription_plan,premium_sub_willingnes
 20-35,Female,1 year to 2 years,Free,No,Free
 20-35,Female,1 year to 2 years,Free,No,Free
 20-35,Female,More than 2 years,Free,No,Free
-20-35,Female,More than 2 years,Free,Yes,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
 20-35,Female,More than 2 years,Free,No,Free
 20-35,Female,Less than 6 months,Free,Yes,Individual Plan
 20-35,Female,Less than 6 months,Free,No,Free
@@ -32,7 +32,7 @@ age,gender,spotify_usage_period,spotify_subscription_plan,premium_sub_willingnes
 20-35,Female,6 months to 1 year,Free,No,Free
 20-35,Male,1 year to 2 years,Free,No,Free
 20-35,Male,More than 2 years,Free,No,Free
-20-35,Male,More than 2 years,Free,Yes,Free
+20-35,Male,More than 2 years,Free,Yes,Individual Plan
 20-35,Female,Less than 6 months,Free,No,Free
 20-35,Male,1 year to 2 years,Free,No,Free
 20-35,Female,More than 2 years,Free,No,Free
@@ -59,7 +59,7 @@ age,gender,spotify_usage_period,spotify_subscription_plan,premium_sub_willingnes
 20-35,Female,6 months to 1 year,Free,No,Free
 20-35,Female,More than 2 years,Free,No,Free
 20-35,Male,More than 2 years,Family Plan,Yes,Family Plan
-20-35,Male,More than 2 years,Free,Yes,Free
+20-35,Male,More than 2 years,Free,Yes,Individual Plan
 20-35,Male,Less than 6 months,Free,No,Free
 20-35,Male,Less than 6 months,Free,No,Free
 20-35,Female,Less than 6 months,Free,No,Free
@@ -337,7 +337,7 @@ age,gender,spotify_usage_period,spotify_subscription_plan,premium_sub_willingnes
 20-35,Female,More than 2 years,Free,No,Student Plan
 20-35,Female,More than 2 years,Free,No,Individual Plan
 20-35,Female,More than 2 years,Free,No,Student Plan
-20-35,Female,More than 2 years,Free,Yes,Free
+20-35,Female,More than 2 years,Free,Yes,Individual Plan
 20-35,Female,More than 2 years,Free,No,Individual Plan
 20-35,Female,1 year to 2 years,Student Plan,Yes,Student Plan
 20-35,Female,More than 2 years,Free,No,Student Plan

@@ -244,10 +244,10 @@ My chosen tools were to create a data warehouse using Python scripts and load th
   * Current premium revenue: sum calculated based on existing paid users and plan prices.
   * Potential revenue: sum calculated by users willing to convert to their preferred premium plan.
 * Aggregations:
-  * User counts by age, current plan, willingness, and preference.
+  * User counts by age, gender, current plan, willingness, and preference.
   * Summing revenue to quantify current and potential earnings.
 * OLAP Techniques Applied:  
-  * Slice data by current plan.
+  * Slice data by subscription plans.
   * Dice data by willingness to pay, preferred plan, and price.
   * Use hierarchies based on age to drill down to current and preferred plans. 
 * Logic:  
