@@ -261,7 +261,7 @@ Visualization 1: Illustrates the data as a whole. Here you can see a current pri
 ![Screenshot](screenshots/mod7_dashboards.jpg)
 
 Visualization 2: Illustrates which charts can be drilled down.  
-![Screenshot](screenshots/mod7_dashboards_alt_view2.jpg
+![Screenshot](screenshots/mod7_dashboards_alt_view2.jpg)
 
 Visualizations 3 and 4: Illustrates the changes that occur when the data is sliced and charts are drilled down.  
 ![Screenshot](screenshots/mod7_dashboards_alt_view.jpg)
