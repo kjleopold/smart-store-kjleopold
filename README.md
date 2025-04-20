@@ -254,4 +254,21 @@ My chosen tools were to create a data warehouse using Python scripts and load th
   * Identify users on free plans who are willing to pay by performing aggregations on the data.
   * Analyze age, current plan, and preferences to find patters in usage and potential upgrades.
   * Calculate current vs. potential revenue based on users' preferred premium plans and pricing.
+### 5. Results
+Based on the users surveyed, the Individual Plan generates the most annual revenue at $4,752 and shows the greatest growth potential, with a possible $4,488 increase if users upgraded. Overall, there’s a clear positive relationship between current and potential revenue across all plans. The Free plan had the highest number of surveyed users by far, with 423 respondents, followed by the Duo and Family plans with 24 and 17 respondents, respectively. Nearly 80% of Free plan users were between the ages of 20 and 35. In terms of upgrade interest, the Free plan stood out again with 200 users selecting a preferred premium plan, accounting for nearly 40% of all upgrade interest. In contrast, the Family Plan was the least selected upgrade option, with only 39 users selecting it.  
 
+Visualization 1: Illustrates the data as a whole. Here you can see a current price list for the plan options, as well as a significant increase in revenue potential if all interested users were to upgrade at these current prices.  
+![Screenshot](screenshots/mod7_dashboards.jpg)
+
+Visualization 2: Illustrates which charts can be drilled down.  
+![Screenshot](screenshots/mod7_dashboards_alt_view2.jpg
+
+Visualizations 3 and 4: Illustrates the changes that occur when the data is sliced and charts are drilled down.  
+![Screenshot](screenshots/mod7_dashboards_alt_view.jpg)
+![Screenshot](screenshots/mod7_dashboards_alt_view3.jpg)
+### 6. Suggested Business Action
+Based on these findings, Spotify has an opportunity to drive growth by focusing on users currently on the Free plan, especially those between the ages of 20 and 35, who not only make up the largest group but also show the most interest in upgrading. Targeted campaigns that highlight the benefits of premium plans, particularly the Individual Plan, could be effective in converting these users. The Individual Plan already brings in the most revenue and has the greatest potential for growth, making it a strong focus for marketing efforts. In contrast, the Family Plan appears to be less popular as an upgrade choice, suggesting it may need to be reevaluated or promoted differently to improve its appeal. Overall, personalized messaging and in-app nudges tailored to users’ current plans and preferences could help boost conversions and close the gap between current and potential revenue.
+### 7. Challenges
+Since the dataset didn’t include any date fields, I had to get creative with how I sliced and drilled into the data to demonstrate those analytical skills. One of the most challenging parts was getting the DAX code for my “Potential Annual Earnings” analysis to work correctly in Power BI. I spent hours troubleshooting and refining how I explained the issue before ChatGPT could help identify the problem. That experience alone reinforced how essential human insight and direction still are. AI can assist, but it needs clear guidance to be effective.  
+### 8. Ethical Considerations
+When working with user data, it’s important to be mindful of a few ethical considerations. First, privacy is key. Even without names, combining certain information can create the risk of identifying individuals, especially in smaller groups. Bias is another factor to watch out for. If certain age groups or plans are overrepresented, the insights could unfairly skew decisions. And while visualizations can be powerful, they can also mislead if not presented carefully or in context. Lastly, there’s a responsibility to use this data in a way that benefits users, not just the business. The goal should be to improve the subscription experience, not to pressure people into upgrades that aren’t a good fit. Keeping these ethical points in mind helps ensure the analysis stays fair, respectful, and responsible.
