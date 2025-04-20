@@ -58,7 +58,7 @@ def create_prices_table(cursor: sqlite3.Cursor) -> None:
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS prices (
                 spotify_subscription_plan TEXT PRIMARY KEY,
-                price_per_month TEXT
+                price_per_month INTEGER
             )
         """)
         logger.info("prices table created.")

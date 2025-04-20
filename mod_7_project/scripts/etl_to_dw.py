@@ -23,14 +23,15 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             spotify_subscription_plan TEXT,
             premium_sub_willingness TEXT,
             preferred_premium_plan TEXT,
-            FOREIGN KEY (spotify_subscription_plan) REFERENCES prices (spotify_subscription_plan)
+            FOREIGN KEY (spotify_subscription_plan) REFERENCES prices (spotify_subscription_plan),
+            FOREIGN KEY (preferred_premium_plan) REFERENCES prices(spotify_subscription_plan)
         )
     """)
     
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS prices (
             spotify_subscription_plan TEXT PRIMARY KEY,
-            price_per_month TEXT
+            price_per_month INTEGER
         )
     """)
 
