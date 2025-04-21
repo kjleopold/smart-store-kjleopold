@@ -227,7 +227,7 @@ I had put in a lot of work to learn Power BI after the last module, so I didn't 
 ### 1. Business Goal
 To analyze a Spotify user survey dataset to improve Spotify's subscription conversion strategy.
 ### 2. Data Source
-Main dataset was obtained from Kaggle: [Spotify User Behavior Survey](https://www.kaggle.com/datasets/coulsonlll/spotify-user-behavior-survey-data)  
+Main dataset was obtained from Kaggle: [Spotify User Behavior Survey](https://www.kaggle.com/datasets/coulsonlll/spotify-user-behavior-survey-data). The dataset is based on a user survey, so the data may not fully represent the entire user base.
 I also manually created a price list from the Spotify website for the current premium plans and pricing: [Spotify Premium Plans](https://www.spotify.com/us/premium/)  
 ### 3. Tools Used
 My chosen tools were to create a data warehouse using Python scripts and load the tables to Power BI to do my analysis and create visuals.
@@ -284,8 +284,5 @@ Visualizations 3 and 4: Illustrates the changes that occur when the data is slic
 * One of the most challenging parts was getting the DAX code for the “Potential Annual Earnings” analysis to work correctly in Power BI.
 I spent hours troubleshooting and refining my explanation on how the potential annual earnings should be calculated before ChatGPT could help identify the issue in my code. The experience reinforced that human insight and direction are essential. AI can assist, but it needs clear, guided input to be effective.
 ### 8. Ethical Considerations
-* Privacy is essential: Even without names, combining data points can risk identifying individuals, especially in small groups.
-* Watch for bias: Overrepresentation of certain age groups or plans can skew insights and lead to unfair decisions.
-* Use visuals responsibly: Charts and graphs can be misleading if not presented with context or clarity.
-* Prioritize user benefit: The goal is to enhance the subscription experience, not pressure users into unsuitable upgrades.
-* Stay fair and respectful: Ethical analysis means using data in a way that’s transparent, thoughtful, and user-focused.
+* Privacy is essential: Even without names, combining data points can risk identifying individuals, especially in small groups. My analysis did not connect the data in ways that any user could be identified individually.
+* Watch for bias: Overrepresentation of certain age groups or plans can skew insights and lead to unfair decisions. I was transparent about 
