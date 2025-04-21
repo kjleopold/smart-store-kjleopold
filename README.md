@@ -287,4 +287,4 @@ Visualizations 3 and 4: Illustrates the changes that occur when the data is slic
 I spent hours troubleshooting and refining my explanation on how the potential annual earnings should be calculated before ChatGPT could help identify the issue in my code. The experience reinforced that human insight and direction are essential. AI can assist, but it needs clear, guided input to be effective.
 ### 8. Ethical Considerations
 * Privacy is essential: Even without names, combining data points can risk identifying individuals, especially in small groups. My analysis did not connect the data in ways that any user could be identified individually.
-* Watch for bias: Overrepresentation of certain age groups or plans can skew insights and lead to unfair decisions. I was transparent about 
+* Watch for bias: Overrepresentation of certain age groups or plans can skew insights and lead to unfair decisions. I made sure to note in the Data Source section that this data may not represent the entire user base as it is data compiled from user surveys. 
