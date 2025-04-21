@@ -228,6 +228,7 @@ I had put in a lot of work to learn Power BI after the last module, so I didn't 
 To analyze a Spotify user survey dataset to improve Spotify's subscription conversion strategy.
 ### 2. Data Source
 Main dataset was obtained from Kaggle: [Spotify User Behavior Survey](https://www.kaggle.com/datasets/coulsonlll/spotify-user-behavior-survey-data). The dataset is based on a user survey, so the data may not fully represent the entire user base.  
+
 I also manually created a price list from the Spotify website for the current premium plans and pricing: [Spotify Premium Plans](https://www.spotify.com/us/premium/)  
 ### 3. Tools Used
 My chosen tools were to create a data warehouse using Python scripts and load the tables to Power BI to do my analysis and create visuals.
