@@ -255,7 +255,14 @@ My chosen tools were to create a data warehouse using Python scripts and load th
   * Analyze age, current plan, and preferences to find patters in usage and potential upgrades.
   * Calculate current vs. potential revenue based on users' preferred premium plans and pricing.
 ### 5. Results
-Based on the users surveyed, the Individual Plan generates the most annual revenue at $4,752 and shows the greatest growth potential, with a possible $4,488 increase if users upgraded. Overall, there’s a clear positive relationship between current and potential revenue across all plans. The Free plan had the highest number of surveyed users by far, with 423 respondents, followed by the Duo and Family plans with 24 and 17 respondents, respectively. Nearly 80% of Free plan users were between the ages of 20 and 35. In terms of upgrade interest, the Free plan stood out again with 200 users selecting a preferred premium plan, accounting for nearly 40% of all upgrade interest. In contrast, the Family Plan was the least selected upgrade option, with only 39 users selecting it.  
+**Key Insights**
+* The Individual Plan generates the highest annual revenue at $4,752.
+* The Individual Plan shows the greatest growth potential with a $4,488 possible increase if users upgraded.
+* There’s a positive correlation between current and potential revenue across all plans.
+* The Free plan had the highest number of users surveyed (423), followed by Duo (24) and Family (17).
+* Nearly 80% of Free Plan users were aged 20–35.
+* The Free Plan had the highest upgrade interest, with 200 users selecting a preferred premium plan, showing almost 40% of all upgrade interest.
+* The Family Plan was the least selected upgrade option, with only 39 users choosing it.
 
 Visualization 1: Illustrates the data as a whole. Here you can see a current price list for the plan options, as well as a significant increase in revenue potential if all interested users were to upgrade at these current prices.  
 ![Screenshot](screenshots/mod7_dashboards.jpg)
