@@ -231,7 +231,8 @@ To analyze a Spotify user survey dataset to improve Spotify's subscription conve
 
 * I also manually created a price list from the Spotify website for the current premium plans and pricing: [Spotify Premium Plans](https://www.spotify.com/us/premium/)  
 ### 3. Tools Used
-My chosen tools were to create a data warehouse using Python scripts and load the tables to Power BI to do my analysis and create visuals.
+* Python
+* Power BI
 ### 4. Workflow & Logic  
 * Data Understanding & Cleaning
   * Dropped unneeded columns.
